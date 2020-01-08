@@ -25,7 +25,7 @@ public class Test {
         String sampleRHEAController = "tracks.singlePlayer.advanced.sampleRHEA.Agent";
 		String sampleOLETSController = "tracks.singlePlayer.advanced.olets.Agent";
 
-		String miJugador = "raulcastilla215alu.MyAgent";
+		String miJugador = "ricardomanuelruizalu.Agent";
 		
 		//Load available games
 		String spGamesCollection =  "examples/all_games_sp.csv";
@@ -36,8 +36,8 @@ public class Test {
 		int seed = new Random().nextInt();
 
 		// Game and level to play
-		int gameIdx = 43; //117
-		int levelIdx = 11; // level names from 0 to 4 (game_lvlN.txt).
+		int gameIdx = 117; //117
+		int levelIdx = 0; // level names from 0 to 4 (game_lvlN.txt).
 		String gameName = games[gameIdx][1];
 		System.out.println(gameName);
 		String game = games[gameIdx][0];
