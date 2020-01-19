@@ -8,6 +8,9 @@ import core.game.Observation;
 import core.game.StateObservation;
 import core.player.AbstractPlayer;
 import ontology.Types;
+import ontology.Types.ACTIONS;
+import ricardomanuelruizalu.mytools.AgentState;
+import ricardomanuelruizalu.mytools.Brain;
 import tools.ElapsedCpuTimer;
 import tools.Vector2d;
 
@@ -27,18 +30,23 @@ public class Agent extends AbstractPlayer {
      * List of available actions for the agent
      */
     protected ArrayList<Types.ACTIONS> actions;
-
-
+    
+    private Brain brain;
+    
+    private StateObservation stateObs;
+    
     /**
      * Public constructor with state observation and time due.
      * @param so state observation of the current game.
      * @param elapsedTimer Timer for the controller creation.
      */
     //
-    public Agent(StateObservation so, ElapsedCpuTimer elapsedTimer)
-    {
+    public Agent(StateObservation stateObs, ElapsedCpuTimer elapsedTimer) {
+    	String savePath = "./QTable/Qtable.txt";
         randomGenerator = new Random();
-        actions = so.getAvailableActions();
+//        brain = new Brain(stateObs, savePath);
+        actions = stateObs.getAvailableActions(true);
+        this.stateObs = stateObs;
     }
 
 
@@ -54,7 +62,10 @@ public class Agent extends AbstractPlayer {
     public Types.ACTIONS act(StateObservation stateObs, ElapsedCpuTimer elapsedTimer) {
 		
 		int index = randomGenerator.nextInt(actions.size());
-
+		
+		//AgentState estado = new AgentState(stateObs, tip);
+		//System.out.println(estado);
+		
 		/*
 		 * No importa hacia donde apunta, gana de cualquier forma
 		 */
@@ -127,9 +138,52 @@ public class Agent extends AbstractPlayer {
 //	    for (int i = 0; i < 1000; i++) {
 //
 //	    }
+		
+//		//Hacia donde apunto
+//		//La vuelta entera del lander, son 6.283 y cada vez que gira, son 0.2
+//		
+//		System.out.println("Mi posicion actual es :" + posicion);
+//		
+//		ACTIONS action = null;
+//		
+//		if(posicion == 0) {
+//			action = actions.get(1);
+//		}
+//		else {
+//			action = null;
+//		}
+//		
+//		posicion += 0.2;
+//		
 
-//		return actions.get(1);
-		  return null;
+		//Prueba de compassOrientation
+//		Vector2d orientation = stateObs.getAvatarOrientation();
+//		
+//		System.out.println(orientation);
+//		
+//		double x = orientation.x;
+//		double y = orientation.y;
+//		
+//		if(x >= 0.5 ) 
+//			System.out.println("ESTE");
+//		if(x <= -0.5) 
+//			System.out.println("OESTE");
+//		if(y <= -0.5) 
+//			System.out.println("NORTE");
+//		if(y >= 0.5) 
+//			System.out.println("SUR");
+//
+//		if(posicion == 0) {
+//			posicion++;
+//			return actions.get(0);
+//		}
+		
+//		return action;
+//		return null;
+		
+		
+		
+		return actions.get(2);
         
     }
     

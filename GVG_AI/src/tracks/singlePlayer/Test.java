@@ -35,7 +35,7 @@ public class Test {
 		boolean visuals = true;
 		int seed = new Random().nextInt();
 
-		// Game and level to play
+//		 Game and level to play
 		int gameIdx = 117; //117
 		int levelIdx = 0; // level names from 0 to 4 (game_lvlN.txt).
 		String gameName = games[gameIdx][1];
@@ -54,7 +54,7 @@ public class Test {
 //		ArcadeMachine.playOneGame(game, level1, recordActionsFile, seed);
 
 		// 2. This plays a game in a level by the controller.
-  		// ArcadeMachine.runOneGame(game, level1, visuals, sampleRHEAController, recordActionsFile, seed, 0);
+//  		ArcadeMachine.runOneGame(game, level1, visuals, sampleRHEAController, recordActionsFile, seed, 0);
  		ArcadeMachine.runOneGame(game, level1, visuals, miJugador, recordActionsFile, seed, 0);
 
 
