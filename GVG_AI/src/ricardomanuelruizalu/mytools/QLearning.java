@@ -9,8 +9,6 @@ import ricardomanuelruizalu.matrix.QTable;
  *  Defines the Q-learning algorithm.
  *  
  * @author Ricardo Manuel Ruiz Diaz.
- * @author Raul Castilla Bravo.
- *
  */
 public class QLearning {
 
@@ -23,13 +21,23 @@ public class QLearning {
 	public static double time = 0;
 	private float epsilon;
 	
-	private final float CONSTANT = 180000;
-	private final float WINREWARD = 2000f;
-	private final float DEADREWARD = -1000f;
-	private final float STOPREWARD = 0;
-//	private final float STOPREWARD = -20;
-	private final float DISTANCEFACTOR = 200f;
-	private final float GOBACKREWARD = 0f;
+	private boolean winCounter;
+	private boolean deadCounter;
+	
+	private final float CONSTANT = 18000;
+	
+	private final float TIPREWARD = 800;
+	private final float BESTTIPREWARD = 50;
+	
+	private final float SPEEDREWARD = 700;
+	private final float BESTSPEEDREWARD = 0;
+	
+	private final float DEADREWARD = 1500;
+	private final float WINREWARD = 1000;
+
+	private final float DANGERORIENTATIONREWARD = 0;
+	
+	private final float DISTANCEFACTOR = 500;
 	
 	/**
 	 * Constructor. Initializes the Qtable.
@@ -40,6 +48,8 @@ public class QLearning {
 		gamma = 0.5f;
 		alpha = 0.8f;
 		epsilon = 0.8f;
+		this.deadCounter = false;
+		this.winCounter = false;
 	}
 	
 	/**
@@ -60,13 +70,13 @@ public class QLearning {
 	 * @return next action.
 	 */
 	public ACTIONS learn(AgentState previousState, ACTIONS lastAction, AgentState currentState) {
-		
+
 		float sample = reward(previousState, lastAction, currentState) + gamma * qTable.getMaxQValue(currentState);
 		float newQValue = (1-alpha)*qTable.get(previousState, lastAction) + alpha*sample;
 		qTable.set(previousState, lastAction, newQValue);
 		
 		updateConstants();
-		
+					
 		return nextAction(currentState);
 	}
 	
@@ -82,52 +92,78 @@ public class QLearning {
 		
 		float finalReward = 0;
 		
-		float currentDistance;
-		float previousDistance;
+		//Distance reward
+		float currentDistance = currentState.getDistance2Portal();
+		float previousDistance = previousState.getDistance2Portal();
 		
-		// Distance reward
-		if(currentState.getCompass() == State.EAST || currentState.getCompass() == State.WEST) {
-			currentDistance = currentState.getDistanceToPortal(0);
-			previousDistance = previousState.getDistanceToPortal(0);
-		}
-		else {
-			currentDistance = currentState.getDistanceToPortal(1);
-			previousDistance = previousState.getDistanceToPortal(1);			
-		}
-		
-		float distanceReward = 0;
-		
-		//System.out.println("Current distance = " + currentDistance + " Previous Distance = " + previousDistance);
-		
+		float distanceReward = 0;		
 		float difDistance = previousDistance - currentDistance;
-		if (difDistance > 0)
-			distanceReward += difDistance * DISTANCEFACTOR;
-		else
-			distanceReward += Math.abs(difDistance) * GOBACKREWARD;
 		
-		finalReward += distanceReward;
+		distanceReward += difDistance * DISTANCEFACTOR;
 		
-		// Dead reward
-		if(currentState.isAgentDead()) {
-			if(currentState.getCompass() == State.SOUTH) {
-				finalReward += DEADREWARD * 4;
+		finalReward += distanceReward;			
+		
+		//Dead reward
+		if (deadCounter) {
+			finalReward -= DEADREWARD;
+		}
+		
+		//Win reward
+		if (winCounter) {
+			finalReward +=  WINREWARD;
+		}
+		
+		//Speed reward
+		if(currentState.isHighSpeed()) {
+			finalReward -= SPEEDREWARD;
+		}
+			
+		//Tip reward
+		if(!currentState.isPlaneTip()) {
+			finalReward -= TIPREWARD;
+			
+			if(currentState.getTip() < AgentState.NORTHINITPOINT && 
+				previousState.getTip() < AgentState.NORTHINITPOINT && 
+				currentState.getTip() > previousState.getTip()) {
+				finalReward += BESTTIPREWARD;
+			}
+			else if(currentState.getTip() >= 0 && previousState.getTip() <= 6.28) {
+				finalReward += BESTTIPREWARD;
+			}
+			else if((currentState.getTip() > AgentState.NORTHFINISHPOINT && currentState.getTip() <= 4.71f) && 
+					(previousState.getTip() > AgentState.NORTHFINISHPOINT && previousState.getTip() <= 4.71f) &&
+					currentState.getTip() < previousState.getTip()) {
+				finalReward += BESTTIPREWARD;
+			}
+			else if((currentState.getTip() > AgentState.NORTHFINISHPOINT && currentState.getTip() > 4.71f) && 
+					(previousState.getTip() > AgentState.NORTHFINISHPOINT && previousState.getTip() > 4.71f) &&
+					currentState.getTip() > previousState.getTip()) {
+				finalReward += BESTTIPREWARD;
 			}
 			else {
-				finalReward += DEADREWARD;
+				finalReward -= BESTTIPREWARD;
 			}
 		}
 		
-		// Win reward
-		if(currentState.getScore() > previousState.getScore()) {
-			finalReward += WINREWARD;
-		}
-		
-		//Stop reward
-		if(currentState.getAgentPos().equals(previousState.getAgentPos())) {
-			finalReward += STOPREWARD;
+		if(currentState.isDangerOrientation()) {
+			finalReward -= DANGERORIENTATIONREWARD;
 		}
 		
 		return finalReward;
+	}
+	
+	/**
+	 * Agent has won.
+	 */
+	public void agentWin() {
+		winCounter = true;
+	}
+	
+	/**
+	 * Agent has died.
+	 */
+	public void agentDead() {	
+		deadCounter = true;
 	}
 	
 	/**
@@ -141,6 +177,10 @@ public class QLearning {
 		Random rd = new Random();
 		float randomNumber = Math.abs(rd.nextFloat());
 
+//		System.out.println(currentState);
+		
+//		return ACTIONS.ACTION_NIL;	
+		
 		if (randomNumber < epsilon) {
 			return qTable.getRandomAction();
 		} else {
@@ -164,4 +204,5 @@ public class QLearning {
 	public float getAlpha() {
 		return alpha;
 	}
+	
 }

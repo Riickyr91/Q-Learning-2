@@ -881,7 +881,7 @@ public class ArcadeMachine {
         } else {
         	
         	if(players[0] instanceof  ricardomanuelruizalu.Agent) {
-        		((ricardomanuelruizalu.Agent)players[0]).close();
+        		((ricardomanuelruizalu.Agent)players[0]).close(toPlay.getScore());
         	}
         	
             // single player, let the player do all of this.

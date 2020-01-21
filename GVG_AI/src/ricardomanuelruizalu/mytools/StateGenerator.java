@@ -19,42 +19,13 @@ public class StateGenerator {
 		values[1] = 1;
 		
 		// Generation and filtering states without compass
-		ArrayList<ArrayList<Integer>> combStates = combnk(5, values);
-					
-		int[] compassValues = {State.NORTH, State.SOUTH, State.EAST, State.WEST};
-		
-		ArrayList<ArrayList<Integer>> compTip = addCompass(combStates, compassValues);
-		
-		ArrayList<ArrayList<Integer>> compOrientation = addCompass(compTip,compassValues);
-		
-		ArrayList<State> output = integer2States(compOrientation);
+		ArrayList<ArrayList<Integer>> combStates = combnk(7, values);
+							
+		ArrayList<State> output = integer2States(combStates);
 					
 		return output;			
 	}
 		
-	/**
-	 * Add a new value to all combination and create states for each combination.
-	 * 
-	 * @param combStates combinations values.
-	 * @param values to be added.
-	 * @return states.
-	 */
-	@SuppressWarnings("unchecked")
-	private static ArrayList<ArrayList<Integer>> addCompass(ArrayList<ArrayList<Integer>> combStates, int[] values) {
-		ArrayList<ArrayList<Integer>> output = new ArrayList<>();
-		ArrayList<Integer> aux;
-		
-		for(int indexValues = 0; indexValues < values.length; indexValues++) {
-			for(int indexArray = 0; indexArray < combStates.size(); indexArray++) {
-				aux = (ArrayList<Integer>) combStates.get(indexArray).clone();
-				aux.add(values[indexValues]);
-				output.add(aux);
-			}
-		}
-		
-		return output;
-	}
-	
 	/**
 	 * Add a new value to all combination and create states for each combination.
 	 * 

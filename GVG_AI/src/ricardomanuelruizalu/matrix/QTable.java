@@ -104,7 +104,11 @@ public class QTable extends Matrix {
 		Random rd = new Random();
 		
 		for(int i = 0; i < length; i++) {
-			array.add(Float.toString(rd.nextFloat()));
+			if(i == 2) {
+				array.add(Float.toString(-999999f));
+			} else {
+				array.add(Float.toString(rd.nextFloat()));
+			}
 		}
 		
 		return array;

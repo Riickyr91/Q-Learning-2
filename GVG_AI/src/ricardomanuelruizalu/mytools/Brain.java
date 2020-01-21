@@ -10,8 +10,6 @@ import ricardomanuelruizalu.matrix.QTable;
  * Defines the agent brain.
  * 
  * @author Ricardo Manuel Ruiz Diaz.
- * @author Raul Castilla Bravo.
- *
  */
 public class Brain {
 	
@@ -19,11 +17,14 @@ public class Brain {
 	 * Privates attributes.
 	 */
 	private QLearning qLearning;
+	
 	private AgentState currentState;
 	private AgentState previousState;
+	
 	private ACTIONS lastAction;
+	
 	private String savePath;
-	private int deadCounter;
+		
 	private QTable qTable;
 	
 	/**
@@ -34,16 +35,20 @@ public class Brain {
 	 */
 	public Brain(StateObservation stateObs, String savePath) {
 		this.savePath = savePath;
+		
         currentState = new AgentState(stateObs);
         previousState = new AgentState(stateObs);
+        
         lastAction = stateObs.getAvatarLastAction();
         
         ArrayList<State> states = StateGenerator.generate();
+        
         ArrayList<ACTIONS> actions = stateObs.getAvailableActions(true);
+        
 		qTable = new QTable(states , actions, savePath);
-		qLearning = new QLearning(qTable);
 		
-		deadCounter = 0;
+		qLearning = new QLearning(qTable);
+
 	}
 	
 	/**
@@ -53,23 +58,17 @@ public class Brain {
 	 * @return next game action.
 	 */
 	public ACTIONS learn(StateObservation stateObs) {
+
 		previousState = new AgentState(currentState);
 		currentState.perceive(stateObs);
+		
 		lastAction = stateObs.getAvatarLastAction();
-		
-		if(currentState.isAgentDead()) {
-			deadCounter++;
-		} else {
-			deadCounter = 0;
-		}
-		
-		if(deadCounter > 1 || !currentState.portalExist() || !previousState.portalExist()) {
-			return ACTIONS.ACTION_NIL;
-		} else {
-	        int ticks = stateObs.getGameTick();
-	        //IOModule.write("./History.txt", ticks + "\n" + currentState.toString(), true);
-			return qLearning.learn(previousState, lastAction, currentState);
-		}
+	
+        int ticks = stateObs.getGameTick(); 
+        //IOModule.write("./History.txt", ticks + "\n" + currentState.toString(), true);
+        
+		return qLearning.learn(previousState, lastAction, currentState);
+
 	}
 	
 	/**
@@ -81,13 +80,13 @@ public class Brain {
 	public ACTIONS act(StateObservation stateObs) {
 
 		currentState.perceive(stateObs);
-        int ticks = stateObs.getGameTick();
-        IOModule.write("./History.txt", ticks + "\n" + currentState.toString(), true);
-		
-		if(currentState.portalExist() && !currentState.isAgentDead())
-			return qTable.getBestAction(currentState);
-		else
-			return ACTIONS.ACTION_NIL; 
+        
+		int ticks = stateObs.getGameTick();
+        ACTIONS action = qTable.getBestAction(currentState);
+        
+        IOModule.write("./History.txt", ticks + "\n" + currentState.toString()  + "\n"  + action.toString() + "\n\n", true);
+
+        return action;
 	}
 	
 	/**
@@ -97,6 +96,22 @@ public class Brain {
 		qLearning.saveQTable(savePath);
 	}
 
+	/**
+	 * Let qlearning know if he has won.
+	 */
+	public void agentWin() {
+		qLearning.agentWin();
+		qLearning.learn(previousState, lastAction, currentState);
+	}
+	
+	/**
+	 * Let qlearning know if he has died.
+	 */
+	public void agentDead() {
+		qLearning.agentDead();
+		qLearning.learn(previousState, lastAction, currentState);
+	}
+	
 	/**
 	 * @return alpha value of the Q-learning.
 	 */
