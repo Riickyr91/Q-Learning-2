@@ -362,17 +362,19 @@ public class AgentState extends State {
 	 * @return 0 if the position where points, is not a block.
 	 */
 	private int isDangerOrientation(ArrayList<Observation>[][] grid) {
-		int posX = (int) (agentPos.x + orientation.x);
-		int posY = (int) (agentPos.y + orientation.y);
+		int posX = (int) (agentPos.x + (2*orientation.x));
+		int posY = (int) (agentPos.y + (2*orientation.y));
 		
 		if(posX < 0 || posX > world.width - 1 || posY < 0 || posY > world.height - 1) {
+			System.out.println("Estoy fuera del mapa");
 			return 1;
 		}
 				
 		if(!grid[posX][posY].isEmpty()) {
 			if(!isThisCategory(grid[posX][posY].get(0), TYPEAVATAR))
-				if(!isThisCategory(grid[posX][posY].get(0), TYPEPORTAL) || speedPlane > SPEEDLIMIT)
+				if(!isThisCategory(grid[posX][posY].get(0), TYPEPORTAL) || speedPlane > SPEEDLIMIT) {
 					return 1;
+				}
 		}
 		
 		return 0;

@@ -80,7 +80,7 @@ public class Brain {
 	public ACTIONS act(StateObservation stateObs) {
 
 		currentState.perceive(stateObs);
-        
+
 		int ticks = stateObs.getGameTick();
         ACTIONS action = qTable.getBestAction(currentState);
         

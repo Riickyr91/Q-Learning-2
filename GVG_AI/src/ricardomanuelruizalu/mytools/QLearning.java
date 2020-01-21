@@ -34,10 +34,8 @@ public class QLearning {
 	
 	private final float DEADREWARD = 1500;
 	private final float WINREWARD = 1000;
-
-	private final float DANGERORIENTATIONREWARD = 0;
 	
-	private final float DISTANCEFACTOR = 500;
+	private final float DISTANCEFACTOR = 700;
 	
 	/**
 	 * Constructor. Initializes the Qtable.
@@ -145,10 +143,6 @@ public class QLearning {
 			}
 		}
 		
-		if(currentState.isDangerOrientation()) {
-			finalReward -= DANGERORIENTATIONREWARD;
-		}
-		
 		return finalReward;
 	}
 	
@@ -180,7 +174,7 @@ public class QLearning {
 //		System.out.println(currentState);
 		
 //		return ACTIONS.ACTION_NIL;	
-		
+				
 		if (randomNumber < epsilon) {
 			return qTable.getRandomAction();
 		} else {

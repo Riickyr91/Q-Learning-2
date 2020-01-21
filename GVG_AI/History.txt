@@ -7,14 +7,14 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 0.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 0.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_LEFT
+ACTION_NIL
 
 1
 frontDanger = true
@@ -25,14 +25,14 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 0.0
-Hacia donde apunta = 0.20000021
+Hacia donde apunta = 2.0980835E-7
 Speed = 0.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_LEFT
+ACTION_NIL
 
 2
 frontDanger = true
@@ -43,14 +43,14 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 0.4000002
+Hacia donde apunta = 2.0980835E-7
 Speed = 0.3
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_LEFT
+ACTION_NIL
 
 3
 frontDanger = true
@@ -61,14 +61,14 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 0.6000002
+Hacia donde apunta = 2.0980835E-7
 Speed = 0.6
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_LEFT
+ACTION_NIL
 
 4
 frontDanger = true
@@ -79,14 +79,14 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 0.8000002
+Hacia donde apunta = 2.0980835E-7
 Speed = 0.9
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_LEFT
+ACTION_NIL
 
 5
 frontDanger = true
@@ -97,14 +97,14 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.0000002
+Hacia donde apunta = 2.0980835E-7
 Speed = 1.2
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_LEFT
+ACTION_NIL
 
 6
 frontDanger = true
@@ -112,15 +112,15 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 2.0980835E-7
 Speed = 1.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -130,15 +130,15 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 2.0980835E-7
 Speed = 1.8
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -148,15 +148,15 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 2.0980835E-7
 Speed = 2.1
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -166,15 +166,15 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 2.0980835E-7
 Speed = 2.4
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -184,15 +184,15 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 2.0980835E-7
 Speed = 2.7
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -202,15 +202,15 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 2.0980835E-7
 Speed = 3.0
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -220,15 +220,15 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 2.0980835E-7
 Speed = 3.3
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -238,17 +238,17 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 2.0980835E-7
 Speed = 3.6
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_LEFT
 
 14
 frontDanger = false
@@ -256,17 +256,17 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 0.20000021
 Speed = 3.9
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_LEFT
 
 15
 frontDanger = false
@@ -274,17 +274,17 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 0.4000002
 Speed = 4.2
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_LEFT
 
 16
 frontDanger = false
@@ -292,17 +292,17 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 0.6000002
 Speed = 4.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_LEFT
 
 17
 frontDanger = false
@@ -310,17 +310,17 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 0.8000002
 Speed = 4.8
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_LEFT
 
 18
 frontDanger = false
@@ -328,17 +328,17 @@ backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
-planeTip = true
+planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
-Hacia donde apunta = 1.2000003
+Hacia donde apunta = 1.0000002
 Speed = 5.1
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_LEFT
 
 19
 frontDanger = false
@@ -349,12 +349,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 5.4
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -367,12 +367,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 5.7
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -385,12 +385,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 6.0
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -403,12 +403,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 6.3
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -421,12 +421,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 6.6
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -439,12 +439,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 6.9
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -457,12 +457,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 5.0
+Agent position = 13.0 : 5.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 7.2
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -475,12 +475,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 5.0
+Agent position = 13.0 : 5.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 7.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -493,12 +493,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 5.0
+Agent position = 13.0 : 5.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 7.8
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -511,12 +511,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 5.0
+Agent position = 13.0 : 5.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 8.1
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -529,12 +529,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 6.0
+Agent position = 13.0 : 6.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 8.4
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -547,12 +547,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 6.0
+Agent position = 13.0 : 6.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 8.7
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -565,12 +565,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 6.0
+Agent position = 13.0 : 6.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 9.0
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -583,158 +583,104 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 6.0
+Agent position = 13.0 : 6.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 9.3
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
 33
 frontDanger = false
-backDanger = false
+backDanger = true
 leftDanger = false
 rigthDanger = false
 highSpeed = true
 planeTip = true
-dangerOrientation = false
+dangerOrientation = true
 
-Agent position = 5.0 : 7.0
+Agent position = 13.0 : 7.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 9.6
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_UP
 
 34
 frontDanger = false
-backDanger = false
+backDanger = true
 leftDanger = false
 rigthDanger = false
-highSpeed = true
+highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 7.0
-Orientacion = 0.0 : 1.0
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
 Hacia donde apunta = 1.2000003
-Speed = 9.9
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_UP
 
 35
 frontDanger = false
-backDanger = false
+backDanger = true
 leftDanger = false
 rigthDanger = false
-highSpeed = true
+highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 7.0
-Orientacion = 0.0 : 1.0
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
 Hacia donde apunta = 1.2000003
-Speed = 10.2
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_UP
 
 36
 frontDanger = false
-backDanger = true
+backDanger = false
 leftDanger = false
 rigthDanger = false
-highSpeed = true
+highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 8.0
-Orientacion = 0.0 : 1.0
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
 Hacia donde apunta = 1.2000003
-Speed = 10.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_UP
+ACTION_DOWN
 
 37
 frontDanger = false
-backDanger = true
-leftDanger = false
-rigthDanger = false
-highSpeed = true
-planeTip = true
-dangerOrientation = false
-
-Agent position = 5.0 : 8.0
-Orientacion = 0.03669589917885252 : 0.999326478676241
-Hacia donde apunta = 1.2000003
-Speed = 9.874612
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
-
-ACTION_UP
-
-38
-frontDanger = false
-backDanger = true
+backDanger = false
 leftDanger = false
 rigthDanger = false
 highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 8.0
-Orientacion = 0.07822659261402644 : 0.9969356048451672
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
 Hacia donde apunta = 1.2000003
-Speed = 9.264312
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_UP
-
-39
-frontDanger = false
-backDanger = true
-leftDanger = false
-rigthDanger = true
-highSpeed = false
-planeTip = true
-dangerOrientation = false
-
-Agent position = 5.0 : 9.0
-Orientacion = 0.1253502701740376 : 0.9921125489415482
-Hacia donde apunta = 1.2000003
-Speed = 8.672285
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
-
-ACTION_UP
-
-40
-frontDanger = false
-backDanger = true
-leftDanger = false
-rigthDanger = true
-highSpeed = false
-planeTip = true
-dangerOrientation = false
-
-Agent position = 5.0 : 9.0
-Orientacion = 0.1788860234306411 : 0.9838698036941533
-Hacia donde apunta = 1.2000003
-Speed = 8.102539
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
-
-ACTION_UP
+ACTION_DOWN
 
 0
 frontDanger = true
@@ -745,12 +691,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 0.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 0.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -763,12 +709,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 0.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 0.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -781,12 +727,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 0.3
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -799,12 +745,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 0.6
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -817,12 +763,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 0.9
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -835,12 +781,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 1.2
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -853,12 +799,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 1.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -871,12 +817,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 1.8
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -889,12 +835,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 2.1
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -907,12 +853,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 2.4
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -925,12 +871,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 2.7
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -943,12 +889,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 3.0
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -961,12 +907,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 2.0
+Agent position = 13.0 : 2.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 3.3
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_NIL
 
@@ -979,12 +925,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 2.0980835E-7
 Speed = 3.6
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_LEFT
 
@@ -997,12 +943,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 0.20000021
 Speed = 3.9
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_LEFT
 
@@ -1015,12 +961,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 0.4000002
 Speed = 4.2
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_LEFT
 
@@ -1033,12 +979,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 0.6000002
 Speed = 4.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_LEFT
 
@@ -1051,12 +997,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 0.8000002
 Speed = 4.8
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_LEFT
 
@@ -1069,12 +1015,12 @@ highSpeed = false
 planeTip = false
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.0000002
 Speed = 5.1
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_LEFT
 
@@ -1087,12 +1033,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 3.0
+Agent position = 13.0 : 3.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 5.4
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1105,12 +1051,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 5.7
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1123,12 +1069,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 6.0
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1141,12 +1087,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 6.3
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1159,12 +1105,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 6.6
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1177,12 +1123,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 4.0
+Agent position = 13.0 : 4.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 6.9
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1195,12 +1141,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 5.0
+Agent position = 13.0 : 5.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 7.2
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1213,12 +1159,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 5.0
+Agent position = 13.0 : 5.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 7.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1231,12 +1177,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 5.0
+Agent position = 13.0 : 5.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 7.8
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1249,12 +1195,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 5.0
+Agent position = 13.0 : 5.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 8.1
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1267,12 +1213,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 6.0
+Agent position = 13.0 : 6.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 8.4
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1285,12 +1231,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 6.0
+Agent position = 13.0 : 6.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 8.7
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1303,12 +1249,12 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 6.0
+Agent position = 13.0 : 6.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 9.0
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
@@ -1321,106 +1267,718 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 6.0
+Agent position = 13.0 : 6.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 9.3
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_DOWN
 
 33
 frontDanger = false
-backDanger = false
+backDanger = true
 leftDanger = false
 rigthDanger = false
 highSpeed = true
 planeTip = true
-dangerOrientation = false
+dangerOrientation = true
 
-Agent position = 5.0 : 7.0
+Agent position = 13.0 : 7.0
 Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
 Speed = 9.6
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_UP
 
 34
 frontDanger = false
-backDanger = false
+backDanger = true
 leftDanger = false
 rigthDanger = false
-highSpeed = true
+highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 7.0
-Orientacion = 0.0 : 1.0
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
 Hacia donde apunta = 1.2000003
-Speed = 9.9
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_UP
 
 35
 frontDanger = false
-backDanger = false
+backDanger = true
 leftDanger = false
 rigthDanger = false
-highSpeed = true
+highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 7.0
-Orientacion = 0.0 : 1.0
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
 Hacia donde apunta = 1.2000003
-Speed = 10.2
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_DOWN
+ACTION_UP
 
 36
 frontDanger = false
-backDanger = true
+backDanger = false
 leftDanger = false
 rigthDanger = false
-highSpeed = true
+highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 8.0
-Orientacion = 0.0 : 1.0
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
 Hacia donde apunta = 1.2000003
-Speed = 10.5
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
-ACTION_UP
+ACTION_DOWN
 
 37
 frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
+Hacia donde apunta = 1.2000003
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+0
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+1
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+2
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+3
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+4
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+5
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+6
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+7
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+8
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+9
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+10
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+11
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+12
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+13
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+14
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.20000021
+Speed = 3.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+15
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.4000002
+Speed = 4.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+16
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.6000002
+Speed = 4.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+17
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.8000002
+Speed = 4.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+18
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.0000002
+Speed = 5.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+19
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+20
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+21
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+22
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+23
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+24
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+25
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+26
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+27
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+28
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+29
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+30
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+31
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+32
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+33
+frontDanger = false
 backDanger = true
 leftDanger = false
 rigthDanger = false
 highSpeed = true
 planeTip = true
-dangerOrientation = false
+dangerOrientation = true
 
-Agent position = 5.0 : 8.0
-Orientacion = 0.03669589917885252 : 0.999326478676241
+Agent position = 13.0 : 7.0
+Orientacion = 0.0 : 1.0
 Hacia donde apunta = 1.2000003
-Speed = 9.874612
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 9.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_UP
 
-38
+34
 frontDanger = false
 backDanger = true
 leftDanger = false
@@ -1429,48 +1987,4854 @@ highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 8.0
-Orientacion = 0.07822659261402644 : 0.9969356048451672
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
 Hacia donde apunta = 1.2000003
-Speed = 9.264312
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_UP
 
-39
+35
 frontDanger = false
 backDanger = true
 leftDanger = false
-rigthDanger = true
+rigthDanger = false
 highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 9.0
-Orientacion = 0.1253502701740376 : 0.9921125489415482
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
 Hacia donde apunta = 1.2000003
-Speed = 8.672285
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_UP
 
-40
+36
 frontDanger = false
-backDanger = true
+backDanger = false
 leftDanger = false
-rigthDanger = true
+rigthDanger = false
 highSpeed = false
 planeTip = true
 dangerOrientation = false
 
-Agent position = 5.0 : 9.0
-Orientacion = 0.1788860234306411 : 0.9838698036941533
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
 Hacia donde apunta = 1.2000003
-Speed = 8.102539
-Posicion del portal = [3.0 : 10.0, 2.0 : 10.0]
-Dimensiones del mundo = java.awt.Dimension[width=28,height=12]
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+37
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
+Hacia donde apunta = 1.2000003
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+0
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+1
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+2
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+3
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+4
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+5
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+6
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+7
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+8
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+9
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+10
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+11
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+12
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+13
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+14
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.20000021
+Speed = 3.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+15
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.4000002
+Speed = 4.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+16
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.6000002
+Speed = 4.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+17
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.8000002
+Speed = 4.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+18
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.0000002
+Speed = 5.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+19
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+20
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+21
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+22
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+23
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+24
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+25
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+26
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+27
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+28
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+29
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+30
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+31
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+32
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+33
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = true
+planeTip = true
+dangerOrientation = true
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
 
 ACTION_UP
+
+34
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
+Hacia donde apunta = 1.2000003
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+35
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
+Hacia donde apunta = 1.2000003
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+36
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
+Hacia donde apunta = 1.2000003
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+37
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
+Hacia donde apunta = 1.2000003
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+0
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+1
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+2
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+3
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+4
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+5
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+6
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+7
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+8
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+9
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+10
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+11
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+12
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+13
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+14
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.20000021
+Speed = 3.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+15
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.4000002
+Speed = 4.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+16
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.6000002
+Speed = 4.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+17
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.8000002
+Speed = 4.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+18
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.0000002
+Speed = 5.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+19
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+20
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+21
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+22
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+23
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+24
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+25
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+26
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+27
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+28
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+29
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+30
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+31
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+32
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+33
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = true
+planeTip = true
+dangerOrientation = true
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+34
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
+Hacia donde apunta = 1.2000003
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+35
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
+Hacia donde apunta = 1.2000003
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+36
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
+Hacia donde apunta = 1.2000003
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+37
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
+Hacia donde apunta = 1.2000003
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+0
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+1
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+2
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+3
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+4
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+5
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+6
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+7
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+8
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+9
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+10
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+11
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+12
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+13
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+14
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.20000021
+Speed = 3.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+15
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.4000002
+Speed = 4.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+16
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.6000002
+Speed = 4.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+17
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.8000002
+Speed = 4.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+18
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.0000002
+Speed = 5.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+19
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+20
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+21
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+22
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+23
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+24
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+25
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+26
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+27
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+28
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+29
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+30
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+31
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+32
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+33
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = true
+planeTip = true
+dangerOrientation = true
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+34
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
+Hacia donde apunta = 1.2000003
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+35
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
+Hacia donde apunta = 1.2000003
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+36
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
+Hacia donde apunta = 1.2000003
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+37
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
+Hacia donde apunta = 1.2000003
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+0
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+1
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+2
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+3
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+4
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+5
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+6
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+7
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+8
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+9
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+10
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+11
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+12
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+13
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+14
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.20000021
+Speed = 3.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+15
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.4000002
+Speed = 4.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+16
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.6000002
+Speed = 4.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+17
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.8000002
+Speed = 4.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+18
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.0000002
+Speed = 5.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+19
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+20
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+21
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+22
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+23
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+24
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+25
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+26
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+27
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+28
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+29
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+30
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+31
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+32
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+33
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = true
+planeTip = true
+dangerOrientation = true
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+34
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
+Hacia donde apunta = 1.2000003
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+35
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
+Hacia donde apunta = 1.2000003
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+36
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
+Hacia donde apunta = 1.2000003
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+37
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
+Hacia donde apunta = 1.2000003
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+0
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+1
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+2
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+3
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+4
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+5
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+6
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+7
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+8
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+9
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+10
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+11
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+12
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+13
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+14
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.20000021
+Speed = 3.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+15
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.4000002
+Speed = 4.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+16
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.6000002
+Speed = 4.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+17
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.8000002
+Speed = 4.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+18
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.0000002
+Speed = 5.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+19
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+20
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+21
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+22
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+23
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+24
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+25
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+26
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+27
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+28
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+29
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+30
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+31
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+32
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+33
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = true
+planeTip = true
+dangerOrientation = true
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+34
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
+Hacia donde apunta = 1.2000003
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+35
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
+Hacia donde apunta = 1.2000003
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+36
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
+Hacia donde apunta = 1.2000003
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+37
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
+Hacia donde apunta = 1.2000003
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+0
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+1
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+2
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+3
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+4
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+5
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+6
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+7
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+8
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+9
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+10
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+11
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+12
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+13
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+14
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.20000021
+Speed = 3.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+15
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.4000002
+Speed = 4.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+16
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.6000002
+Speed = 4.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+17
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.8000002
+Speed = 4.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+18
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.0000002
+Speed = 5.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+19
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+20
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+21
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+22
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+23
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+24
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+25
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+26
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+27
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+28
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+29
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+30
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+31
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+32
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+33
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = true
+planeTip = true
+dangerOrientation = true
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+34
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
+Hacia donde apunta = 1.2000003
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+35
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
+Hacia donde apunta = 1.2000003
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+36
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
+Hacia donde apunta = 1.2000003
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+37
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
+Hacia donde apunta = 1.2000003
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+0
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+1
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+2
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+3
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+4
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+5
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+6
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+7
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 1.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+8
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+9
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+10
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 2.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+11
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+12
+frontDanger = true
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 2.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_NIL
+
+13
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 3.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+14
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.20000021
+Speed = 3.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+15
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.4000002
+Speed = 4.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+16
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.6000002
+Speed = 4.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+17
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 0.8000002
+Speed = 4.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+18
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = false
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.0000002
+Speed = 5.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_LEFT
+
+19
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 3.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+20
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 5.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+21
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+22
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+23
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+24
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 4.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 6.9
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+25
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.2
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+26
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.5
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+27
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 7.8
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+28
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 5.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.1
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+29
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.4
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+30
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 8.7
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+31
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.0
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+32
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 6.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.3
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+33
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = true
+planeTip = true
+dangerOrientation = true
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.0 : 1.0
+Hacia donde apunta = 1.2000003
+Speed = 9.6
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+34
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.04037286977796843 : 0.9991846833223031
+Hacia donde apunta = 1.2000003
+Speed = 8.975279
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+35
+frontDanger = false
+backDanger = true
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 7.0
+Orientacion = 0.08661214925586094 : 0.9962421069204415
+Hacia donde apunta = 1.2000003
+Speed = 8.367366
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_UP
+
+36
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.1397230192102683 : 0.9901906270525727
+Hacia donde apunta = 1.2000003
+Speed = 7.7802014
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
+
+37
+frontDanger = false
+backDanger = false
+leftDanger = false
+rigthDanger = false
+highSpeed = false
+planeTip = true
+dangerOrientation = false
+
+Agent position = 13.0 : 8.0
+Orientacion = 0.13458261629668986 : 0.9909023763170305
+Hacia donde apunta = 1.2000003
+Speed = 8.077368
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = java.awt.Dimension[width=28,height=11]
+
+ACTION_DOWN
 
