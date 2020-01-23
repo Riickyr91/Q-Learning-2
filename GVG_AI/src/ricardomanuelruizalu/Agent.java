@@ -29,6 +29,7 @@ public class Agent extends AbstractPlayer {
    
     private StateObservation stateObs;
     private Brain brain;
+    private boolean explotar;
     
     /**
      * Public constructor with state observation and time due.
@@ -40,6 +41,8 @@ public class Agent extends AbstractPlayer {
         randomGenerator = new Random();
         brain = new Brain(stateObs, savePath);
         this.stateObs = stateObs;
+        explotar = true; // explotar
+//        explotar = false; // explorar
     }
 
 
@@ -55,28 +58,26 @@ public class Agent extends AbstractPlayer {
     public Types.ACTIONS act(StateObservation stateObs, ElapsedCpuTimer elapsedTimer) {
 		
     	this.stateObs = stateObs;
-    	    	
-//    	for(int i = 0; i < 10000; i++) {
-//			System.out.println("");
-//		}
-		
-    	ACTIONS act = brain.act(stateObs);
-		return act;
-    	
-//		return brain.learn(stateObs);
-
-//    	return ACTIONS.ACTION_NIL;
+	
+    	if(explotar) {
+        	ACTIONS act = brain.act(stateObs);
+        	return act;
+    	} else {
+        	return brain.learn(stateObs);    		
+    	}    	
     }
     
 	public void close(double score) {
    	
-    	//Update score    	    	
-    	if(score > 0) {
-    		brain.agentWin();
-    	} else {
-    		brain.agentDead();
-    	}
-//    
+		if (!explotar) {
+			// Update score
+			if (score > 0) {
+				brain.agentWin();
+			} else {
+				brain.agentDead();
+			}
+		}
+    
 		//Save QTable
     	brain.saveQTable();
     	System.out.println("QTable saved!");

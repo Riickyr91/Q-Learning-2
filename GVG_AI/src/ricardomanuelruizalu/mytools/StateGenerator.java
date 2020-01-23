@@ -19,8 +19,10 @@ public class StateGenerator {
 		values[1] = 1;
 		
 		// Generation and filtering states without compass
-		ArrayList<ArrayList<Integer>> combStates = combnk(7, values);
-							
+		ArrayList<ArrayList<Integer>> combStates = combnk(9, values);
+		
+		filterStates(combStates);
+		
 		ArrayList<State> output = integer2States(combStates);
 					
 		return output;			
@@ -88,8 +90,41 @@ public class StateGenerator {
 		return output;				
 	}
 		
+	/**
+	 * Removes illogical states.
+	 * 
+	 * @param combStates an array of arrays of integers with all possible combinations.
+	 */
+	private static void filterStates(ArrayList<ArrayList<Integer>> combStates){
+		for(int i = 0; i < combStates.size(); i++ ) {
+			if(!isValid(combStates.get(i))) {
+				combStates.remove(i);
+				i--;
+			}
+		}
+	}
+
+	/**
+	 * Applies restrictions to filter a state.
+	 * 
+	 * @param comb array of integers with one combination of values.
+	 * @return true if overcomes all restrictions.
+	 */
+	private static boolean isValid(ArrayList<Integer> comb) {	
+		boolean portalWest = (comb.get(State.POSPORTALWEST) == 0 ? false : true);
+		boolean portalEast = (comb.get(State.POSPORTALEAST) == 0 ? false : true);
+			
+		if(portalWest && portalEast) return false;		
+		
+		return true;	
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("Longitud = " + StateGenerator.generate().size());
+//		System.out.println(AgentState.EASTPOINT);
+//		System.out.println(AgentState.WESTPOINT);
+//		System.out.println(AgentState.NORTHPOINTINIT);
+//		System.out.println(AgentState.NORTHPOINTFINISH);
 	}
 	
 }

@@ -103,12 +103,8 @@ public class QTable extends Matrix {
 		ArrayList<String> array = new ArrayList<>();
 		Random rd = new Random();
 		
-		for(int i = 0; i < length; i++) {
-			if(i == 2) {
-				array.add(Float.toString(-999999f));
-			} else {
-				array.add(Float.toString(rd.nextFloat()));
-			}
+		for (int i = 0; i < length; i++) {
+			array.add(Float.toString(rd.nextFloat()));
 		}
 		
 		return array;
@@ -168,7 +164,7 @@ public class QTable extends Matrix {
 				indexMax = i;
 			}
 		}
-
+		
 		return actions.get(indexMax);
 	}
 	

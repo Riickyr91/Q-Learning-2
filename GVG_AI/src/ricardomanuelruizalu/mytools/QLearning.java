@@ -24,19 +24,18 @@ public class QLearning {
 	private boolean winCounter;
 	private boolean deadCounter;
 	
-	private final float CONSTANT = 18000;
+	private final float CONSTANT = 10000;
 	
-	private final float TIPREWARD = 800;
-	private final float BESTTIPREWARD = 50;
+	private final float TIPREWARD = 2000; // 2000;
+	private final float BESTTIPREWARD = 300; //300;
 	
-	private final float SPEEDREWARD = 700;
-	private final float BESTSPEEDREWARD = 0;
+	private final float SPEEDREWARD = 1000; //1500;
 	
-	private final float DEADREWARD = 1500;
-	private final float WINREWARD = 1000;
+	private final float DEADREWARD = 1500; //2000;
+	private final float WINREWARD = 1000; //2000;
 	
-	private final float DISTANCEFACTOR = 700;
-	
+	private final float DISTANCEFACTOR = 100; //100;
+		
 	/**
 	 * Constructor. Initializes the Qtable.
 	 * @param qTable initial Qtable.
@@ -71,6 +70,7 @@ public class QLearning {
 
 		float sample = reward(previousState, lastAction, currentState) + gamma * qTable.getMaxQValue(currentState);
 		float newQValue = (1-alpha)*qTable.get(previousState, lastAction) + alpha*sample;
+		
 		qTable.set(previousState, lastAction, newQValue);
 		
 		updateConstants();
@@ -87,19 +87,43 @@ public class QLearning {
 	 * @return reward.
 	 */
 	private float reward(AgentState previousState, ACTIONS lastAction, AgentState currentState) {
-		
 		float finalReward = 0;
 		
 		//Distance reward
-		float currentDistance = currentState.getDistance2Portal();
-		float previousDistance = previousState.getDistance2Portal();
+		float distanceReward = 0;
+
+		float currentDistance = 0;
+		float previousDistance = 0;
+	
+		if(currentState.isPortalDown()) {
+			currentDistance = currentState.getDistance2Portal();
+			previousDistance = previousState.getDistance2Portal();
+			if(currentState.isPlaneTip() && currentDistance > previousDistance) {
+				distanceReward -= DISTANCEFACTOR;
+			}
+//			else if(currentDistance < previousDistance) {
+//				distanceReward += DISTANCEFACTOR;
+//			}
+			
+		}
+//		
+//		else if(currentState.isPortalEast()) {
+//			currentDistance = (float) (currentState.getPortalPos().get(0).x - currentState.getAgentPos().x);
+//			previousDistance = (float) (previousState.getPortalPos().get(0).x - previousState.getAgentPos().x);
+//			if(currentDistance > previousDistance) {
+//				distanceReward -= DISTANCEFACTOR;
+//			}	
+//		}
+//
+//		else if(currentState.isPortalWest()) {
+//			currentDistance = (float) (currentState.getAgentPos().x - currentState.getPortalPos().get(0).x);
+//			previousDistance = (float) (previousState.getAgentPos().x - previousState.getPortalPos().get(0).x);
+//			if(currentDistance > previousDistance) {
+//				distanceReward -= DISTANCEFACTOR;
+//			}			
+//		}
 		
-		float distanceReward = 0;		
-		float difDistance = previousDistance - currentDistance;
-		
-		distanceReward += difDistance * DISTANCEFACTOR;
-		
-		finalReward += distanceReward;			
+		finalReward += distanceReward;
 		
 		//Dead reward
 		if (deadCounter) {
@@ -111,38 +135,79 @@ public class QLearning {
 			finalReward +=  WINREWARD;
 		}
 		
-		//Speed reward
-		if(currentState.isHighSpeed()) {
+		// Speed reward
+		if(currentState.getSpeed() > AgentState.SPEEDLIMIT) {
 			finalReward -= SPEEDREWARD;
 		}
-			
-		//Tip reward
-		if(!currentState.isPlaneTip()) {
-			finalReward -= TIPREWARD;
-			
-			if(currentState.getTip() < AgentState.NORTHINITPOINT && 
-				previousState.getTip() < AgentState.NORTHINITPOINT && 
-				currentState.getTip() > previousState.getTip()) {
-				finalReward += BESTTIPREWARD;
-			}
-			else if(currentState.getTip() >= 0 && previousState.getTip() <= 6.28) {
-				finalReward += BESTTIPREWARD;
-			}
-			else if((currentState.getTip() > AgentState.NORTHFINISHPOINT && currentState.getTip() <= 4.71f) && 
-					(previousState.getTip() > AgentState.NORTHFINISHPOINT && previousState.getTip() <= 4.71f) &&
-					currentState.getTip() < previousState.getTip()) {
-				finalReward += BESTTIPREWARD;
-			}
-			else if((currentState.getTip() > AgentState.NORTHFINISHPOINT && currentState.getTip() > 4.71f) && 
-					(previousState.getTip() > AgentState.NORTHFINISHPOINT && previousState.getTip() > 4.71f) &&
-					currentState.getTip() > previousState.getTip()) {
-				finalReward += BESTTIPREWARD;
-			}
-			else {
-				finalReward -= BESTTIPREWARD;
-			}
+		
+		
+		//Correction de tip
+		float currentTip = currentState.getTip();
+		float previousTip = previousState.getTip();
+		/*
+		if(currentState.isPortalDown() && previousState.isPortalWest() && lastAction == ACTIONS.ACTION_RIGHT) {
+			finalReward += TIPREWARD;
 		}
 		
+		if(currentState.isPortalDown() && previousState.isPortalEast() && lastAction == ACTIONS.ACTION_LEFT) {
+			finalReward += TIPREWARD;
+		}	
+		*/	
+		// Tip reward
+		if (!currentState.isPlaneTip()) {
+			finalReward -= TIPREWARD;
+
+			
+			if (currentTip > Math.PI) {
+				finalReward -= TIPREWARD;
+			}
+			
+			if(currentTip == previousTip) {
+				finalReward -= BESTTIPREWARD;
+			}
+
+			// Portal is to the left of the avatar
+			if (currentState.isPortalWest()) {
+				if ((currentTip < AgentState.WESTPOINTINIT && currentTip > previousTip) ||
+						(currentTip >= 0 && previousTip >= 6)) {
+					finalReward += BESTTIPREWARD;
+				} else if ((currentTip > AgentState.WESTPOINTFINISH && currentTip <= 5.5f && previousTip <= 5.5f) && (currentTip < previousTip)) {
+					finalReward += BESTTIPREWARD;
+				} else if ((currentTip > 5.5f && previousTip > 5.5f) && (currentTip > previousTip)) {
+					finalReward += BESTTIPREWARD;
+				}
+			}
+
+			// Portal is to the right of the avatar
+			else if (currentState.isPortalEast()) {
+				if ((currentTip < AgentState.EASTPOINTINIT && currentTip > previousTip) ||
+						(currentTip >= 0 && previousTip >= 6)) {
+					finalReward += BESTTIPREWARD;
+				} else if ((currentTip > AgentState.EASTPOINTFINISH && currentTip <= 3.92f && previousTip <= 3.92f)	&& (currentTip < previousTip)) {
+					finalReward += BESTTIPREWARD;
+				} else if ((currentTip > 3.92f && previousTip > 3.92f) && (currentTip > previousTip)) {
+					finalReward += BESTTIPREWARD;
+				}
+			}
+
+			// Portal is to under of the avatar
+			else if (currentState.isPortalDown()) {
+				if ((currentTip < AgentState.NORTHPOINTINIT && currentTip > previousTip) ||
+						(currentTip >= 0 && previousTip >= 6)) {
+					finalReward += BESTTIPREWARD;
+				} else if ((currentTip > AgentState.NORTHPOINTFINISH && currentTip <= 4.71f && previousTip <= 4.71f ) && (currentTip < previousTip)) {
+					finalReward += BESTTIPREWARD;
+				} else if ((currentTip > 4.71f && previousTip > 4.71f) && (currentTip > previousTip)) {
+					finalReward += BESTTIPREWARD;
+				}
+			}
+
+		} else {
+
+			finalReward += TIPREWARD;
+						
+		}
+
 		return finalReward;
 	}
 	
@@ -172,7 +237,7 @@ public class QLearning {
 		float randomNumber = Math.abs(rd.nextFloat());
 
 //		System.out.println(currentState);
-		
+//		
 //		return ACTIONS.ACTION_NIL;	
 				
 		if (randomNumber < epsilon) {
@@ -186,8 +251,8 @@ public class QLearning {
 	 * Update Q-learning constants.
 	 */
 	private void updateConstants() {
-		alpha = (float) (0.9*CONSTANT/(CONSTANT + time));
-		epsilon = (float) (0.9*CONSTANT/(CONSTANT + time));
+		alpha = (float) (CONSTANT/(CONSTANT + time));
+		epsilon = (float) (CONSTANT/(CONSTANT + time));
 		
 		time++;
 	}
@@ -199,4 +264,5 @@ public class QLearning {
 		return alpha;
 	}
 	
+
 }

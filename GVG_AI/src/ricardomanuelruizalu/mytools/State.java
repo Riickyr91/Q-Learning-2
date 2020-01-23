@@ -18,7 +18,9 @@ public class State {
 	private boolean rightDanger;
 	private boolean highSpeed;
 	private boolean planeTip;
-	private boolean dangerOrientation;
+	private boolean orientation;
+	private boolean portalWest;
+	private boolean portalEast;
 	
 	public static final int POSFRONTBLOCK = 0;
 	public static final int POSBACKBLOCK = 1;
@@ -26,7 +28,9 @@ public class State {
 	public static final int POSRIGHTBLOCK = 3;
 	public static final int POSHIGHSPEED = 4;
 	public static final int POSPLANETIP = 5;
-	public static final int POSDANGERORIENTATION = 6;
+	public static final int POSORIENTATION = 6;
+	public static final int POSPORTALWEST = 7;
+	public static final int POSPORTALEAST = 8;
 
 	/**
 	 * Default constructor.
@@ -48,7 +52,10 @@ public class State {
 
 		this.planeTip = obj.planeTip;
 		
-		this.dangerOrientation = obj.dangerOrientation;
+		this.orientation = obj.orientation;
+		
+		this.portalWest = obj.portalWest;
+		this.portalEast = obj.portalEast;
 	}
 	
 	/**
@@ -70,12 +77,12 @@ public class State {
 		backDanger = (array.get(POSBACKBLOCK) == 0 ? false : true);	
 		leftDanger = (array.get(POSLEFTBLOCK) == 0 ? false : true);
 		rightDanger = (array.get(POSRIGHTBLOCK) == 0 ? false : true);	
-	
 		highSpeed = (array.get(POSHIGHSPEED) == 0 ? false : true);
-		
-		planeTip = (array.get(POSPLANETIP) == 0 ? true : false);
-		
-		dangerOrientation = (array.get(POSDANGERORIENTATION) == 0 ? false : true);
+		planeTip = (array.get(POSPLANETIP) == 0 ? true : false); 
+		orientation = (array.get(POSORIENTATION) == 0 ? false : true); 	//False Down
+																		//True Up
+		portalWest = (array.get(POSPORTALWEST) == 0 ? false : true);
+		portalEast = (array.get(POSPORTALEAST) == 0 ? false : true);
 
 	}
 	
@@ -94,13 +101,29 @@ public class State {
 	public boolean isPlaneTip() {
 		return planeTip;
 	}
+	
+	/**
+	 * Return if portal is to West.
+	 * @return true if portal is to West.
+	 */
+	public boolean isPortalWest() {
+		return portalWest;
+	}
 
 	/**
-	 * Returns if the orientation points to a block
-	 * @return true if the orientation points to a block.
+	 * Return if portal is to East.
+	 * @return true if portal is to East.
 	 */
-	public boolean isDangerOrientation() {
-		return dangerOrientation;
+	public boolean isPortalEast() {
+		return portalEast;
+	}
+	
+	/**
+	 * Return if portal is under the avatar.
+	 * @return true if portal is under the avatar.
+	 */
+	protected boolean isPortalDown() {
+		return !portalWest && !portalEast;
 	}
 	
 	/**
@@ -115,7 +138,9 @@ public class State {
 				 this.rightDanger == aux.rightDanger &&
 				 this.highSpeed == aux.highSpeed && 
 				 this.planeTip == aux.planeTip &&
-				 this.dangerOrientation == aux.dangerOrientation);
+				 this.orientation == aux.orientation &&
+				 this.portalWest == aux.portalWest &&
+				 this.portalEast == aux.portalEast);
 		
 	}
 
@@ -132,9 +157,11 @@ public class State {
 				"rigthDanger = " + Boolean.toString(rightDanger) + "\n" + 
 				"highSpeed = " + Boolean.toString(highSpeed) + "\n" + 
 				"planeTip = " + Boolean.toString(planeTip) + "\n" + 
-				"dangerOrientation = " + Boolean.toString(dangerOrientation) + "\n"; 
+				"orientation = " + (orientation == false ? "Down" : "Up") + "\n" + 
+				"portalWest = " + Boolean.toString(portalWest) + "\n" + 
+				"portalEast = " + Boolean.toString(portalEast) + "\n"; 
 		
 		return str;
 	}
-
+	
 }

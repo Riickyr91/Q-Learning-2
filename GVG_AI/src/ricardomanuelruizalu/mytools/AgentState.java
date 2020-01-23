@@ -32,33 +32,33 @@ public class AgentState extends State {
 	public static final int TYPEPORTAL = 2;
 	public static final int TYPEAVATAR = 1;
 
-	public static final int DANGERDISTANCE = 2;
+	public static final int FRONTBACKDISTANCE = 3;
+	public static final int LEFTRIGHTDISTANCE = 2;
 	
 	public static final float SPEEDLIMIT = 9.35f;
 	
-	public static final float NORTHINITPOINT =  1.07f;
-	public static final float NORTHFINISHPOINT = 2.07f;
+	public static final float WESTPOINTFINISH = 2.25f;
+	public static final float WESTPOINTINIT = 1.95f;
+	
+	public static final float EASTPOINTFINISH = 1.05f;  	
+	public static final float EASTPOINTINIT = 0.75f;
+
+	public static final float NORTHPOINTFINISH = 1.65f;
+	public static final float NORTHPOINTINIT =  1.35f;
 	
 	/**
 	 * Constructor.
 	 * @param stateObs game observations.
 	 */
  	public AgentState(StateObservation stateObs) {
-		//Posicion del agente
- 		agentPos = calculateCell(stateObs.getAvatarPosition(), stateObs.getBlockSize());			
-			 		
- 		//Posicion de la punta
+ 		agentPos = calculateCell(stateObs.getAvatarPosition(), stateObs.getBlockSize());		
 		this.tip = 0;	
-		
-		//Grid
 		this.grid = stateObs.getObservationGrid();
 		
-		//Dimensiones del mapa
 		this.world = new Dimension(stateObs.getWorldDimension());
 		this.world.height = world.height / stateObs.getBlockSize();
 		this.world.width = world.width / stateObs.getBlockSize();
 		
-		//Posicion del portal
 		this.portalPos = getPortalPos(stateObs);
 		
 		perceive(stateObs);
@@ -89,6 +89,9 @@ public class AgentState extends State {
 		//Posicion del agente
  		agentPos = calculateCell(stateObs.getAvatarPosition(), stateObs.getBlockSize());			
 			
+ 		//Posicion del portal
+ 		portalPos = getPortalPos(stateObs);
+ 		
 		//Velocidad del avión
 		this.speedPlane = (float) stateObs.getAvatarSpeed();
 		
@@ -97,23 +100,38 @@ public class AgentState extends State {
 		
 		//Actualización de la punta del avion
 		ACTIONS lastAction = stateObs.getAvatarLastAction();
-		
-		if(lastAction == ACTIONS.ACTION_LEFT) {
-			this.tip += 0.2f;
-		}
-		else if(lastAction == ACTIONS.ACTION_RIGHT) {
-			this.tip -= 0.2f;
-		}
+		updateTip(lastAction);
 		
 		//Actualización del array
-		int[] stateValues = new int[7];
+		int[] stateValues = new int[9];
 
 		for(int i = 0;i < stateValues.length ; i++) {
 			stateValues[i] = 0;
 		}
 				
+		//Percieve speed
+		if(speedPlane >= SPEEDLIMIT) {
+			stateValues[POSHIGHSPEED] = 1;
+		} else {
+			stateValues[POSHIGHSPEED] = 0;
+		}
+		
+		//Portal WEST, EAST or DOWN
+		int[] portalDirection = new int[2];
+		
+		portalDirection = getPortalDirection();
+		
+		stateValues[POSPORTALWEST] = portalDirection[0];
+		stateValues[POSPORTALEAST] = portalDirection[1];
+		
+		//Percieve compassTip		
+		stateValues[POSPLANETIP] = planeTipDirection();	
+		
+		//Percieve orientation
+		stateValues[POSORIENTATION] = getOrientation();
+		
 		//Percieve danger
-		ArrayList<Observation>[][] grid = stateObs.getObservationGrid();
+		grid = stateObs.getObservationGrid();
 
 		int[] blockValues = new int[4];
 	
@@ -123,26 +141,35 @@ public class AgentState extends State {
 		stateValues[POSBACKBLOCK] = blockValues[POSBACKBLOCK];
 		stateValues[POSLEFTBLOCK] = blockValues[POSLEFTBLOCK];
 		stateValues[POSRIGHTBLOCK] = blockValues[POSRIGHTBLOCK];
-		
-		//Percieve speed
-		if(speedPlane > SPEEDLIMIT) {
-			stateValues[POSHIGHSPEED] = 1;
-		} else {
-			stateValues[POSHIGHSPEED] = 0;
-		}
-		
-		//Percieve compassTip		
-		stateValues[POSPLANETIP] = planeTipDirection();	
-		
-		//Percieve orientation
-		stateValues[POSDANGERORIENTATION] = isDangerOrientation(grid);
-			
+						
 		ArrayList<Integer> arrayStateValues = new ArrayList<>();
+		
 		for(int i = 0; i < stateValues.length; i++) {
 			arrayStateValues.add(stateValues[i]);
 		}
 			
 		super.update(arrayStateValues);
+	}
+	
+	/**
+	 * Update the private attribute tip.
+	 * @param lastAction
+	 */
+	private void updateTip(ACTIONS lastAction) {
+		if(lastAction == ACTIONS.ACTION_LEFT) {
+			this.tip += 0.2f;
+		}
+		
+		else if(lastAction == ACTIONS.ACTION_RIGHT) {
+			this.tip -= 0.2f;
+		}
+		
+		if(this.tip >= 6.28) {
+			this.tip -= 6.28;
+		} 
+		else if (this.tip <= 0) {
+			this.tip += 6.28;
+		}
 	}
 	
 	/**
@@ -152,23 +179,30 @@ public class AgentState extends State {
 	 * @return 0 if tip points to NORTH.
 	 */
 	private int planeTipDirection() {
-		int direction;	
-		if(this.tip >= 6.28) {
-			this.tip -= 6.28;
-		}
+		int direction = 1;
 		
-		if (this.tip <= 0) {
-			this.tip += 6.28;
+		if(isPortalWest()) {
+			if(tip >= WESTPOINTINIT && tip <= WESTPOINTFINISH ) {
+				direction = 0;
+			} else {
+				direction = 1;
+			}	
+		} 
+		else if (isPortalEast()){
+			if(tip >= EASTPOINTINIT && tip <= EASTPOINTFINISH ) {
+				direction = 0;
+			} else {
+				direction = 1;
+			}
 		}
-
-		if(tip >= NORTHINITPOINT && tip <= NORTHFINISHPOINT ) {
-			direction = 0;
-		} else {
-			direction = 1;
-		}
-				
+		else {
+			if(tip >= NORTHPOINTINIT && tip <= NORTHPOINTFINISH ) {
+				direction = 0;
+			} else {
+				direction = 1;
+			}			
+		}		
 		return direction;
-
 	}
 		
 	/**
@@ -205,7 +239,7 @@ public class AgentState extends State {
 		int width = (int) world.width;
 		int height = (int) world.height;
 		
-		int[] dangerValues = new int[5];
+		int[] dangerValues = new int[4];
 
 		for(int i = 0;i < dangerValues.length ; i++) {
 			dangerValues[i] = 0;
@@ -219,23 +253,24 @@ public class AgentState extends State {
 		int observationY;
 		int observationX;
 		
-		//FRONTDANGER		
-		if((posY - DANGERDISTANCE) < 0) {
+		//FRONTDANGER
+		blockPositions = 0;
+
+		if((posY - FRONTBACKDISTANCE) < 0) {
 			observationY = 0;
+			blockPositions++;
 		} else {
-			observationY = posY - DANGERDISTANCE;
+			observationY = posY - FRONTBACKDISTANCE;
 		}
 		
 		iteradorY = posY - 1;
 		iteradorX = posX - 1;
-		blockPositions = 0;
 		
 		while(iteradorY >= observationY  && blockPositions == 0) {
 			while(iteradorX <= posX + 1 && blockPositions == 0) {
 				if(iteradorX >= 0 && iteradorX <= width - 1) { 
 					if(!grid[iteradorX][iteradorY].isEmpty()) {
-						if((isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEPORTAL) && speedPlane > SPEEDLIMIT) ||
-								!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) 
+						if(!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) 
 							blockPositions++;
 					}
 				}
@@ -248,22 +283,23 @@ public class AgentState extends State {
 		if(blockPositions > 0 || posY == 0) dangerValues[POSFRONTBLOCK] = 1;
 		
 		//BACKDANGER
-		if ((posY + DANGERDISTANCE) > height - 1) {
+		blockPositions = 0;
+
+		if ((posY + FRONTBACKDISTANCE) > height - 1) {
 			observationY = height - 1;
+			blockPositions++;
 		} else {
-			observationY = posY + DANGERDISTANCE;
+			observationY = posY + FRONTBACKDISTANCE;
 		}
 		
 		iteradorY = posY + 1;
 		iteradorX = posX - 1;
-		blockPositions = 0;
 
 		while(iteradorY <= observationY  && blockPositions == 0) {
 			while(iteradorX <= posX + 1 && blockPositions == 0) {
 				if(iteradorX >= 0 && iteradorX <= width - 1) {
 					if(!grid[iteradorX][iteradorY].isEmpty()) {
-						if((isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEPORTAL) && speedPlane > SPEEDLIMIT) ||
-								!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) 
+						if(!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) 
 							blockPositions++;
 					}
 				}
@@ -275,19 +311,21 @@ public class AgentState extends State {
 
 		if(blockPositions > 0 || posY == height - 1) dangerValues[POSBACKBLOCK] = 1;
 				
-		//LEFTDANGER		
-		if(posX - DANGERDISTANCE < 0) {
+		//LEFTDANGER	
+		blockPositions = 0;
+
+		if(posX - LEFTRIGHTDISTANCE < 0) {
 			observationX = 0;
+			blockPositions++;
 		} else {
-			observationX = posX - DANGERDISTANCE;
+			observationX = posX - LEFTRIGHTDISTANCE;
 		}
 		
 		iteradorX = observationX;
-		blockPositions = 0;
 		
 		while (iteradorX < posX && blockPositions == 0) {
 			if (!grid[iteradorX][posY].isEmpty()) {
-				if (!isThisCategory(grid[iteradorX][posY].get(0), TYPEPORTAL) && !isThisCategory(grid[iteradorX][posY].get(0), TYPEAVATAR)) {
+				if (!isThisCategory(grid[iteradorX][posY].get(0), TYPEAVATAR)) {
 					blockPositions++;
 				}
 			}
@@ -296,19 +334,21 @@ public class AgentState extends State {
 		
 		if(blockPositions > 0 || posX == 0) dangerValues[POSLEFTBLOCK] = 1;
 		
-		//RIGHTDANGER					
-		if(posX + DANGERDISTANCE > width - 1) {
+		//RIGHTDANGER
+		blockPositions = 0;
+
+		if(posX + LEFTRIGHTDISTANCE > width - 1) {
 			observationX = width - 1;
+			blockPositions++;
 		} else {
-			observationX = posX + DANGERDISTANCE;
+			observationX = posX + LEFTRIGHTDISTANCE;
 		}
 		
 		iteradorX = observationX;
-		blockPositions = 0;
 		
 		while (iteradorX > posX && blockPositions == 0) {
 			if (!grid[iteradorX][posY].isEmpty()) {
-				if (!isThisCategory(grid[iteradorX][posY].get(0), TYPEPORTAL) && !isThisCategory(grid[iteradorX][posY].get(0), TYPEAVATAR)) {
+				if (!isThisCategory(grid[iteradorX][posY].get(0), TYPEAVATAR)) {
 					blockPositions++;
 				}
 			}
@@ -317,31 +357,15 @@ public class AgentState extends State {
 		
 		if(blockPositions > 0 || posX == width - 1) dangerValues[POSRIGHTBLOCK] = 1;
 			
-		//Check if portal
-		if(posY - 1 >= 0 && !grid[posX][posY - 1].isEmpty()) {
-			if (isThisCategory(grid[posX][posY-1].get(0), TYPEPORTAL) && speedPlane < SPEEDLIMIT) {
-				dangerValues[POSFRONTBLOCK] = 0;
-			}
+		//Check if portal is ... or it is dangerous
+		if(isPortalDown() && (agentPos.y - portalPos.get(0).y <= FRONTBACKDISTANCE)  && !super.isHighSpeed()) {
+			dangerValues[POSFRONTBLOCK] = 0;
 		}
-			
-		if(posY + 1 <= height - 1 && !grid[posX][posY + 1].isEmpty()) {
-			if (isThisCategory(grid[posX][posY + 1].get(0), TYPEPORTAL) && speedPlane < SPEEDLIMIT) {
-				dangerValues[POSBACKBLOCK] = 0;
-			}
+					
+		if(isPortalDown() && (portalPos.get(0).y - agentPos.y <= FRONTBACKDISTANCE)  && !super.isHighSpeed()) {
+			dangerValues[POSBACKBLOCK] = 0;
 		}
-		
-		if(posX - 1 >= 0 && !grid[posX - 1][posY].isEmpty()) {
-			if (isThisCategory(grid[posX - 1][posY].get(0), TYPEPORTAL) && speedPlane < SPEEDLIMIT) {
-				dangerValues[POSLEFTBLOCK] = 0;
-			}
-		}
-		
-		if(posX + 1 <= width - 1 && !grid[posX + 1][posY].isEmpty()) {
-			if (isThisCategory(grid[posX + 1][posY].get(0), TYPEPORTAL) && speedPlane < SPEEDLIMIT) {
-				dangerValues[POSRIGHTBLOCK] = 0;
-			}
-		}
-		
+				
 		return dangerValues;
 	}
 
@@ -356,28 +380,54 @@ public class AgentState extends State {
 	}
 	
 	/**
-	 * Return if the orientation points to a block.
+	 * Verify in which direction the portal is.
 	 * 
-	 * @param grid maps of the game.
-	 * @return 0 if the position where points, is not a block.
+	 * @return integer vector.
 	 */
-	private int isDangerOrientation(ArrayList<Observation>[][] grid) {
-		int posX = (int) (agentPos.x + (2*orientation.x));
-		int posY = (int) (agentPos.y + (2*orientation.y));
+	private int[] getPortalDirection() {
+		int[] portalDirection = new int[2];
 		
-		if(posX < 0 || posX > world.width - 1 || posY < 0 || posY > world.height - 1) {
-			System.out.println("Estoy fuera del mapa");
+		portalDirection[0] = 0;
+		portalDirection[1] = 0;
+		
+		boolean underAvatar = false;
+				
+		for(int i = 0; i < portalPos.size(); i++) {
+			if(portalPos.get(i).x == agentPos.x) {
+				underAvatar = true;
+			}
+		}
+		
+		if(!underAvatar) {
+			
+			if(portalPos.get(0).x > agentPos.x) {
+				portalDirection[0] = 0;
+				portalDirection[1] = 1;
+			}
+			else if (portalPos.get(0).x < agentPos.x){
+				portalDirection[0] = 1;
+				portalDirection[1] = 0;
+			}
+		}
+		
+		return portalDirection;				
+	}
+	
+	/**
+	 * Return if the orientation points is a up or down.
+	 * 
+	 * @param orientation is avatar.
+	 * @return 0 if orientation is down.
+	 */
+	private int getOrientation() {
+
+		if(this.orientation.y >= 0) {
+			return 0;
+		}
+		
+		else {
 			return 1;
 		}
-				
-		if(!grid[posX][posY].isEmpty()) {
-			if(!isThisCategory(grid[posX][posY].get(0), TYPEAVATAR))
-				if(!isThisCategory(grid[posX][posY].get(0), TYPEPORTAL) || speedPlane > SPEEDLIMIT) {
-					return 1;
-				}
-		}
-		
-		return 0;
 		
 	}
 	
@@ -392,7 +442,7 @@ public class AgentState extends State {
 		
 		for (ArrayList<Observation> v : stateObs.getImmovablePositions()) { // es un arraylist de array
 			for (Observation a : v) { // es un array de observation
-				if (a.itype == 2 && (a.position.y > agentPos.y)) {
+				if (a.itype == 2) {
 					portals.add(calculateCell(a.position, stateObs.getBlockSize()));
 				}
 			}
@@ -465,7 +515,7 @@ public class AgentState extends State {
 			x += portalPos.get(i).x;
 		}
 		
-		x = (int) (x / portalPos.size());
+		x = (int) Math.round(x / portalPos.size());
 		
 		return (float) (agentPos.dist(x,portalPos.get(0).y));
 		
@@ -492,6 +542,13 @@ public class AgentState extends State {
 	 */
 	public Vector2d getAgentPos() {
 		return agentPos;
+	}
+	
+	/**
+	 * @return portal position in cell coordinates.
+	 */
+	public ArrayList<Vector2d> getPortalPos(){
+		return portalPos;
 	}
 	
 	/**
