@@ -19,15 +19,41 @@ public class StateGenerator {
 		values[1] = 1;
 		
 		// Generation and filtering states without compass
-		ArrayList<ArrayList<Integer>> combStates = combnk(9, values);
+		ArrayList<ArrayList<Integer>> combStates = combnk(6, values);
 		
+		int[] orientationValues = {State.NORTH, State.SOUTH, State.EAST, State.WEST};
+		combStates = addInteger2Combination(combStates, orientationValues);
+
 		filterStates(combStates);
-		
+				
 		ArrayList<State> output = integer2States(combStates);
 					
 		return output;			
 	}
 		
+	/**
+	 * Add a new value to all combination.
+	 * 
+	 * @param combStates combinations values.
+	 * @param values to be added.
+	 * @return combinations with the new values.
+	 */
+	@SuppressWarnings("unchecked")
+	private static ArrayList<ArrayList<Integer>> addInteger2Combination(ArrayList<ArrayList<Integer>> combStates, int[] values) {
+		ArrayList<ArrayList<Integer>> output = new ArrayList<ArrayList<Integer>>();
+		ArrayList<Integer> aux;
+		
+		for(int indexValues = 0; indexValues < values.length; indexValues++) {
+			for(int indexArray = 0; indexArray < combStates.size(); indexArray++) {
+				aux = (ArrayList<Integer>) combStates.get(indexArray).clone();
+				aux.add(values[indexValues]);
+				output.add(aux);
+			}
+		}
+		
+		return output;
+	}
+	
 	/**
 	 * Add a new value to all combination and create states for each combination.
 	 * 
@@ -121,10 +147,6 @@ public class StateGenerator {
 	
 	public static void main(String[] args) {
 		System.out.println("Longitud = " + StateGenerator.generate().size());
-//		System.out.println(AgentState.EASTPOINT);
-//		System.out.println(AgentState.WESTPOINT);
-//		System.out.println(AgentState.NORTHPOINTINIT);
-//		System.out.println(AgentState.NORTHPOINTFINISH);
 	}
 	
 }

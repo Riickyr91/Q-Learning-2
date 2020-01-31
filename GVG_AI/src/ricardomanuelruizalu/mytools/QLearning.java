@@ -24,14 +24,14 @@ public class QLearning {
 	private boolean winCounter;
 	private boolean deadCounter;
 	
-	private final float CONSTANT = 10000;
+	private final float CONSTANT = 20; //N = 2 -> 45000
 	
-	private final float TIPREWARD = 2000; // 2000;
-	private final float BESTTIPREWARD = 300; //300;
+	private final float TIPREWARD = 400; // 400
+	private final float BESTTIPREWARD = 100	; // 100
 	
-	private final float SPEEDREWARD = 1000; //1500;
+	private final float SPEEDREWARD = 200; //1500;
 	
-	private final float DEADREWARD = 1500; //2000;
+	private final float DEADREWARD = 2000; //2000;
 	private final float WINREWARD = 1000; //2000;
 	
 	private final float DISTANCEFACTOR = 100; //100;
@@ -92,69 +92,74 @@ public class QLearning {
 		//Distance reward
 		float distanceReward = 0;
 
-		float currentDistance = 0;
-		float previousDistance = 0;
-	
-		if(currentState.isPortalDown()) {
-			currentDistance = currentState.getDistance2Portal();
-			previousDistance = previousState.getDistance2Portal();
-			if(currentState.isPlaneTip() && currentDistance > previousDistance) {
-				distanceReward -= DISTANCEFACTOR;
-			}
-//			else if(currentDistance < previousDistance) {
+		double currentX = currentState.getAgentPos().x;
+		double previousX = previousState.getAgentPos().x;
+			
+//		if(currentState.isPortalWest()) {
+//			if(currentX < previousX) {
 //				distanceReward += DISTANCEFACTOR;
 //			}
-			
-		}
-//		
-//		else if(currentState.isPortalEast()) {
-//			currentDistance = (float) (currentState.getPortalPos().get(0).x - currentState.getAgentPos().x);
-//			previousDistance = (float) (previousState.getPortalPos().get(0).x - previousState.getAgentPos().x);
-//			if(currentDistance > previousDistance) {
-//				distanceReward -= DISTANCEFACTOR;
-//			}	
 //		}
 //
-//		else if(currentState.isPortalWest()) {
-//			currentDistance = (float) (currentState.getAgentPos().x - currentState.getPortalPos().get(0).x);
-//			previousDistance = (float) (previousState.getAgentPos().x - previousState.getPortalPos().get(0).x);
-//			if(currentDistance > previousDistance) {
-//				distanceReward -= DISTANCEFACTOR;
-//			}			
+//		else if(currentState.isPortalEast()) {
+//			if(currentX > previousX) {
+//				distanceReward += DISTANCEFACTOR;
+//			}
 //		}
 		
 		finalReward += distanceReward;
 		
 		//Dead reward
-		if (deadCounter) {
+		if (deadCounter || (winCounter && !currentState.isPlaneTip())) {
 			finalReward -= DEADREWARD;
 		}
 		
 		//Win reward
-		if (winCounter) {
+		if (winCounter && currentState.isPlaneTip()) {
+			System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 			finalReward +=  WINREWARD;
 		}
 		
 		// Speed reward
 		if(currentState.getSpeed() > AgentState.SPEEDLIMIT) {
 			finalReward -= SPEEDREWARD;
-		}
+		} 		
 		
+//		// LateralSpeedReward
+//		if(currentState.isHighLateralSpeed() && (currentState.isPortalEast() || currentState.isPortalWest())) {
+//			double x = currentState.agentOrientation().x;
+//			double y = currentState.agentOrientation().y;
+//			
+//			double angle = Math.atan(y/x);
+//			
+//			if((x > 0 && y < 0) || (x < 0 && y > 0)) {
+//				angle = angle + Math.PI;
+//			}
+//			
+//			float angleInit = (float) angle - 0.15f;
+//			float angleFin = (float) angle + 0.15f;
+//			
+//			float currentTip = currentState.getTip();
+//			float previousTip = previousState.getTip();
+//			
+//			if (currentTip < angleInit && currentTip > previousTip) {
+//				finalReward += 2 * BESTTIPREWARD;
+//			} else if (currentTip > angleFin && currentTip < previousTip) {
+//				finalReward += 2 * BESTTIPREWARD;
+//			}	
+//			
+//			if (currentTip > angleInit && currentTip < angleFin) {
+//				finalReward += 2 * TIPREWARD;
+//			}
+//		
+//		}
 		
 		//Correction de tip
 		float currentTip = currentState.getTip();
 		float previousTip = previousState.getTip();
-		/*
-		if(currentState.isPortalDown() && previousState.isPortalWest() && lastAction == ACTIONS.ACTION_RIGHT) {
-			finalReward += TIPREWARD;
-		}
-		
-		if(currentState.isPortalDown() && previousState.isPortalEast() && lastAction == ACTIONS.ACTION_LEFT) {
-			finalReward += TIPREWARD;
-		}	
-		*/	
+	
 		// Tip reward
-		if (!currentState.isPlaneTip()) {
+		if (!currentState.isPlaneTip()) {// && !currentState.isHighLateralSpeed()) {
 			finalReward -= TIPREWARD;
 
 			
@@ -264,5 +269,4 @@ public class QLearning {
 		return alpha;
 	}
 	
-
 }

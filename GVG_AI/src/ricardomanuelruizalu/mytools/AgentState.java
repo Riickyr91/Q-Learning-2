@@ -23,6 +23,7 @@ public class AgentState extends State {
 	private Vector2d orientation; //Orientacion hacia donde se dirige
 	private float tip; //Hacia donde apunta
 	private float speedPlane; //Velocidad del avión
+	
 	private ArrayList<Vector2d> portalPos; //Posiciones del portal
 	
 	private Dimension world;
@@ -36,6 +37,7 @@ public class AgentState extends State {
 	public static final int LEFTRIGHTDISTANCE = 2;
 	
 	public static final float SPEEDLIMIT = 9.35f;
+	public static final float LATERALSPEEDLIMIT = 4;
 	
 	public static final float WESTPOINTFINISH = 2.25f;
 	public static final float WESTPOINTINIT = 1.95f;
@@ -45,6 +47,11 @@ public class AgentState extends State {
 
 	public static final float NORTHPOINTFINISH = 1.65f;
 	public static final float NORTHPOINTINIT =  1.35f;
+	
+	public static final float NORTHORIENTATION = 0.2f;
+	public static final float SOUTHORIENTATION = 0.1f;
+	
+	public static final float XORIENTATION = 0.7f;
 	
 	/**
 	 * Constructor.
@@ -98,12 +105,15 @@ public class AgentState extends State {
 		//Orientacion
 		this.orientation = new Vector2d(stateObs.getAvatarOrientation());
 		
+		//Mapa
+		grid = stateObs.getObservationGrid();
+		
 		//Actualización de la punta del avion
 		ACTIONS lastAction = stateObs.getAvatarLastAction();
 		updateTip(lastAction);
-		
+				
 		//Actualización del array
-		int[] stateValues = new int[9];
+		int[] stateValues = new int[7];
 
 		for(int i = 0;i < stateValues.length ; i++) {
 			stateValues[i] = 0;
@@ -115,6 +125,9 @@ public class AgentState extends State {
 		} else {
 			stateValues[POSHIGHSPEED] = 0;
 		}
+		
+		//Percieve lateral speed
+		stateValues[POSHIGHLATERALSPEED] = getLateralSpeed(stateObs.getAvatarSpeed());	
 		
 		//Portal WEST, EAST or DOWN
 		int[] portalDirection = new int[2];
@@ -128,19 +141,10 @@ public class AgentState extends State {
 		stateValues[POSPLANETIP] = planeTipDirection();	
 		
 		//Percieve orientation
-		stateValues[POSORIENTATION] = getOrientation();
-		
-		//Percieve danger
-		grid = stateObs.getObservationGrid();
+		stateValues[POSORIENTATION] = getAvatarOrientation();
 
-		int[] blockValues = new int[4];
-	
-		blockValues = inDanger(grid, agentPos, world);
-		
-		stateValues[POSFRONTBLOCK] = blockValues[POSFRONTBLOCK];
-		stateValues[POSBACKBLOCK] = blockValues[POSBACKBLOCK];
-		stateValues[POSLEFTBLOCK] = blockValues[POSLEFTBLOCK];
-		stateValues[POSRIGHTBLOCK] = blockValues[POSRIGHTBLOCK];
+		//Percieve danger
+		stateValues[POSDANGER] = inDanger(stateValues[POSORIENTATION]);
 						
 		ArrayList<Integer> arrayStateValues = new ArrayList<>();
 		
@@ -170,6 +174,30 @@ public class AgentState extends State {
 		else if (this.tip <= 0) {
 			this.tip += 6.28;
 		}
+	}
+	
+	/**
+	 * Check if the lateral speed is high.
+	 * @return 0 if it is less than lateralSpeedLimit.
+	 */
+	private int getLateralSpeed(double speed) {
+		double x = Math.abs(orientation.x);
+		double y = Math.abs(orientation.y);
+		
+		double angle = Math.atan(y/x);
+				
+		double lateralSpeed = speed * Math.cos(angle);
+		
+		if(lateralSpeed < 0.00000001) {
+			lateralSpeed = 0;
+		}
+				
+		if (lateralSpeed >= LATERALSPEEDLIMIT) {
+			return 1;
+		} else {
+			return 0;
+		}
+		
 	}
 	
 	/**
@@ -231,142 +259,264 @@ public class AgentState extends State {
 	 * @param orientation indicates the side of the road which must be checked.
 	 * @return true if exist a car which could run over the agent.
 	 */
-	private int[] inDanger(ArrayList<Observation>[][] grid, Vector2d agentPos, Dimension world) {
-				
-		int posX = (int) agentPos.x;
-		int posY = (int) agentPos.y;
-		
+	private int inDanger(int orient) {
 		int width = (int) world.width;
 		int height = (int) world.height;
 		
-		int[] dangerValues = new int[4];
+		double x = orientation.x;
+		double y = orientation.y;
 
-		for(int i = 0;i < dangerValues.length ; i++) {
-			dangerValues[i] = 0;
-		}
+		int posX = (int) agentPos.x;
+		int posY = (int) agentPos.y;
 		
-		int blockPositions;
+		int danger = 0;
+		
+		int blockPositions = 0;
+		int observationY = 0;
+		int observationX = 0;
 		
 		int iteradorY;
 		int iteradorX;
 		
-		int observationY;
-		int observationX;
+		int xFinal;
+		int yFinal;
 		
-		//FRONTDANGER
-		blockPositions = 0;
+		if(orient == State.NORTH) {
+			blockPositions = 0;
 
-		if((posY - FRONTBACKDISTANCE) < 0) {
-			observationY = 0;
-			blockPositions++;
-		} else {
-			observationY = posY - FRONTBACKDISTANCE;
-		}
-		
-		iteradorY = posY - 1;
-		iteradorX = posX - 1;
-		
-		while(iteradorY >= observationY  && blockPositions == 0) {
-			while(iteradorX <= posX + 1 && blockPositions == 0) {
-				if(iteradorX >= 0 && iteradorX <= width - 1) { 
-					if(!grid[iteradorX][iteradorY].isEmpty()) {
-						if(!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) 
-							blockPositions++;
-					}
-				}
-				iteradorX++;
+			if((posY - FRONTBACKDISTANCE) <= 0) {
+				blockPositions++;
+			} else {
+				observationY = posY - FRONTBACKDISTANCE;
 			}
-			iteradorX = posX - 1;
-			iteradorY--;
-		}
-
-		if(blockPositions > 0 || posY == 0) dangerValues[POSFRONTBLOCK] = 1;
-		
-		//BACKDANGER
-		blockPositions = 0;
-
-		if ((posY + FRONTBACKDISTANCE) > height - 1) {
-			observationY = height - 1;
-			blockPositions++;
-		} else {
-			observationY = posY + FRONTBACKDISTANCE;
-		}
-		
-		iteradorY = posY + 1;
-		iteradorX = posX - 1;
-
-		while(iteradorY <= observationY  && blockPositions == 0) {
-			while(iteradorX <= posX + 1 && blockPositions == 0) {
-				if(iteradorX >= 0 && iteradorX <= width - 1) {
-					if(!grid[iteradorX][iteradorY].isEmpty()) {
-						if(!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) 
-							blockPositions++;
-					}
-				}
-				iteradorX++;
-			}
-			iteradorX = posX - 1;
-			iteradorY++;
-		}
-
-		if(blockPositions > 0 || posY == height - 1) dangerValues[POSBACKBLOCK] = 1;
-				
-		//LEFTDANGER	
-		blockPositions = 0;
-
-		if(posX - LEFTRIGHTDISTANCE < 0) {
-			observationX = 0;
-			blockPositions++;
-		} else {
-			observationX = posX - LEFTRIGHTDISTANCE;
-		}
-		
-		iteradorX = observationX;
-		
-		while (iteradorX < posX && blockPositions == 0) {
-			if (!grid[iteradorX][posY].isEmpty()) {
-				if (!isThisCategory(grid[iteradorX][posY].get(0), TYPEAVATAR)) {
-					blockPositions++;
-				}
-			}
-			iteradorX++;
-		}
-		
-		if(blockPositions > 0 || posX == 0) dangerValues[POSLEFTBLOCK] = 1;
-		
-		//RIGHTDANGER
-		blockPositions = 0;
-
-		if(posX + LEFTRIGHTDISTANCE > width - 1) {
-			observationX = width - 1;
-			blockPositions++;
-		} else {
-			observationX = posX + LEFTRIGHTDISTANCE;
-		}
-		
-		iteradorX = observationX;
-		
-		while (iteradorX > posX && blockPositions == 0) {
-			if (!grid[iteradorX][posY].isEmpty()) {
-				if (!isThisCategory(grid[iteradorX][posY].get(0), TYPEAVATAR)) {
-					blockPositions++;
-				}
-			}
-			iteradorX--;
-		}
-		
-		if(blockPositions > 0 || posX == width - 1) dangerValues[POSRIGHTBLOCK] = 1;
 			
-		//Check if portal is ... or it is dangerous
-		if(isPortalDown() && (agentPos.y - portalPos.get(0).y <= FRONTBACKDISTANCE)  && !super.isHighSpeed()) {
-			dangerValues[POSFRONTBLOCK] = 0;
+			iteradorY = posY - 1;
+			iteradorX = posX - 1;
+			
+			xFinal = posX + 1;
+			
+			while(iteradorY >= observationY  && blockPositions == 0) {
+				while(iteradorX <= xFinal && blockPositions == 0) {
+					if(iteradorX >= 0 && iteradorX <= width - 1) { 
+						if(!grid[iteradorX][iteradorY].isEmpty()) {
+							if(!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) 
+								blockPositions++;
+						}					
+					} else {
+						blockPositions++;
+					}
+					iteradorX++;
+				}
+				iteradorX = posX - 1;
+				iteradorY--;
+			}
+
+			if(blockPositions > 0) danger = 1;
 		}
-					
-		if(isPortalDown() && (portalPos.get(0).y - agentPos.y <= FRONTBACKDISTANCE)  && !super.isHighSpeed()) {
-			dangerValues[POSBACKBLOCK] = 0;
+		
+		else if(orient == State.SOUTH) {
+			blockPositions = 0;
+
+			if((posY + FRONTBACKDISTANCE) >= height - 1) {
+				blockPositions++;
+			} else {
+				observationY = posY + FRONTBACKDISTANCE;
+			}
+			
+			iteradorY = posY + 1;
+			iteradorX = posX;
+			
+			xFinal = posX;
+			
+			while(iteradorY <= observationY  && blockPositions == 0) {
+				while(iteradorX <= xFinal && blockPositions == 0) {
+					if(iteradorX >= 0 && iteradorX <= width - 1) { 
+						if(!grid[iteradorX][iteradorY].isEmpty()) {
+							if(!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) { 
+								blockPositions++;
+							}
+						}					
+					} else {
+						blockPositions++;
+					}
+					iteradorX++;
+				}
+				iteradorX = posX;
+				iteradorY++;
+			}
+
+			if(blockPositions > 0) danger = 1;
 		}
+		
+		else if(orient == State.WEST) {
+			blockPositions = 0;
+
+			if(y > 0 && x > -XORIENTATION) {
+				if (posX - 1 <= 0 || (!grid[posX - 1][posY].isEmpty()
+						&& !isThisCategory(grid[posX - 1][posY].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posX - 1 <= 0 || posY + 1 >= world.height - 1 || (!grid[posX - 1][posY + 1].isEmpty()
+						&& !isThisCategory(grid[posX - 1][posY + 1].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posY + 1 >= world.height - 1 || (!grid[posX][posY + 1].isEmpty()
+						&& !isThisCategory(grid[posX][posY + 1].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posX - 2 <= 0 || posY + 2 >= world.height - 1 || (!grid[posX - 2][posY + 2].isEmpty()
+						&& !isThisCategory(grid[posX - 2][posY + 2].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
 				
-		return dangerValues;
+			}
+			
+			else if (y < 0 && x > -XORIENTATION) {
+				if (posX - 1 <= 0 || (!grid[posX - 1][posY].isEmpty()
+						&& !isThisCategory(grid[posX - 1][posY].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posX - 1 <= 0 || posY - 1 <= 0 || (!grid[posX - 1][posY - 1].isEmpty()
+						&& !isThisCategory(grid[posX - 1][posY - 1].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posY - 1 <= 0 || (!grid[posX][posY - 1].isEmpty()
+						&& !isThisCategory(grid[posX][posY - 1].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posX - 2 <= 0 || posY - 2 <= 0 || (!grid[posX - 2][posY - 2].isEmpty()
+						&& !isThisCategory(grid[posX - 2][posY - 2].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}	
+				
+			} else {
+				if(posX - LEFTRIGHTDISTANCE <= 0) {
+					blockPositions++;
+				} else {
+					observationX = posX - LEFTRIGHTDISTANCE;
+				}
+				
+				iteradorX = posX - 1;
+
+				iteradorY = posY - 1;
+				yFinal = posY + 1;
+				
+				
+				while(iteradorY <= yFinal  && blockPositions == 0) {
+					while(iteradorX >= observationX && blockPositions == 0) {
+						if(iteradorY >= 0 && iteradorY <= world.height - 1) { 
+							if(!grid[iteradorX][iteradorY].isEmpty()) {
+								if(!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) 
+									blockPositions++;
+							}					
+						} else {
+							blockPositions++;
+						}
+						iteradorX--;
+					}
+					iteradorX = posX - 1;
+					iteradorY++;
+				}
+			}
+			
+			if(blockPositions > 0) danger = 1;	
+			
+		}
+		
+		else if(orient == State.EAST) {
+			blockPositions = 0;
+
+			if(y > 0 && x < XORIENTATION) {
+				if (posX + 1 >= world.width - 1 || (!grid[posX + 1][posY].isEmpty()
+						&& !isThisCategory(grid[posX + 1][posY].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posX + 1 >= world.width - 1 || posY + 1 >= world.height - 1 || (!grid[posX + 1][posY + 1].isEmpty()
+						&& !isThisCategory(grid[posX + 1][posY + 1].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posY + 1 >= world.height - 1 || (!grid[posX][posY + 1].isEmpty()
+						&& !isThisCategory(grid[posX][posY + 1].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posX + 2 >= world.width - 1 || posY + 2 >= world.height - 1 || (!grid[posX + 2][posY + 2].isEmpty()
+						&& !isThisCategory(grid[posX + 2][posY + 2].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+				
+			}
+			
+			else if (y < 0 && x < XORIENTATION) {
+				if (posX + 1 >= world.width - 1 || (!grid[posX + 1][posY].isEmpty()
+						&& !isThisCategory(grid[posX + 1][posY].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posX + 1 >= world.width - 1 || posY - 1 <= 0 || (!grid[posX + 1][posY - 1].isEmpty()
+						&& !isThisCategory(grid[posX + 1][posY - 1].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posY - 1 <= 0 || (!grid[posX][posY - 1].isEmpty()
+						&& !isThisCategory(grid[posX][posY - 1].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+
+				if (posX + 2 >= world.width - 1 || posY - 2 <= 0 || (!grid[posX + 2][posY - 2].isEmpty()
+						&& !isThisCategory(grid[posX + 2][posY - 2].get(0), TYPEAVATAR))) {
+					blockPositions++;
+				}
+				
+			} else {
+				if(posX + LEFTRIGHTDISTANCE >= world.width - 1) {
+					blockPositions++;
+				} else {
+					observationX = posX + LEFTRIGHTDISTANCE;
+				}
+				
+				iteradorX = posX + 1;
+
+				iteradorY = posY - 1;
+				yFinal = posY + 1;
+				
+				
+				while(iteradorY <= yFinal  && blockPositions == 0) {
+					while(iteradorX <= observationX && blockPositions == 0) {
+						if(iteradorY >= 0 && iteradorY <= world.height - 1) { 
+							if(!grid[iteradorX][iteradorY].isEmpty()) {
+								if(!isThisCategory(grid[iteradorX][iteradorY].get(0), TYPEAVATAR)) 
+									blockPositions++;
+							}					
+						} else {
+							blockPositions++;
+						}
+						iteradorX++;
+					}
+					iteradorX = posX + 1;
+					iteradorY++;
+				}
+				
+			}
+							
+			if(blockPositions > 0) danger = 1;
+
+		}
+		
+		//Check if portal is ... or it is dangerous		
+		if(isPortalDown() && orient == State.SOUTH && (agentPos.y - portalPos.get(0).y < FRONTBACKDISTANCE)  && !super.isHighSpeed()) {
+			danger = 0;
+		}
+		
+		return danger;
 	}
 
 	/**
@@ -419,16 +569,25 @@ public class AgentState extends State {
 	 * @param orientation is avatar.
 	 * @return 0 if orientation is down.
 	 */
-	private int getOrientation() {
-
-		if(this.orientation.y >= 0) {
-			return 0;
+	private int getAvatarOrientation() {
+		int aux = 0;
+		double x = orientation.x;
+		double y = orientation.y;		
+		
+		if( y >= 0 && (x >= -SOUTHORIENTATION && x <= SOUTHORIENTATION)) {
+			aux = State.SOUTH;
+		}
+		else if(y < 0 && (x >= -NORTHORIENTATION && x <= NORTHORIENTATION)) {
+			aux = State.NORTH;
+		}
+		else if((y > 0 && x < -SOUTHORIENTATION) || ((y < 0 && x < -NORTHORIENTATION))) {
+			aux = State.WEST;
+		}
+		else if ((y > 0 && x > SOUTHORIENTATION) || ((y < 0 && x > NORTHORIENTATION)) ){
+			aux = State.EAST;			
 		}
 		
-		else {
-			return 1;
-		}
-		
+		return aux;		
 	}
 	
 	/**
@@ -529,6 +688,18 @@ public class AgentState extends State {
 		return this.speedPlane;
 	}
 	
+	public boolean isHighLateralSpeed() {
+		return super.getHighLateralSpeed();
+	}
+	
+	public Vector2d agentOrientation() {
+		return orientation;
+	}
+	
+	public int avatarOrientation() {
+		return super.getOrientation();
+	}
+	
 	/**
 	 * Return the position of the tip.
 	 * @return the position of the tip.
@@ -562,7 +733,7 @@ public class AgentState extends State {
 				"\nHacia donde apunta = " + this.tip +
 				"\nSpeed = " + this.speedPlane + 
 				"\nPosicion del portal = " + portalPos + 
-				"\nDimensiones del mundo = " + world.toString() + "\n";
+				"\nDimensiones del mundo = [ " + world.width + " , " + world.height + " ]\n";
 		
 		return str;
 	}

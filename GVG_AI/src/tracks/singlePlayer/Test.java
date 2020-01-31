@@ -25,7 +25,7 @@ public class Test {
         String sampleRHEAController = "tracks.singlePlayer.advanced.sampleRHEA.Agent";
 		String sampleOLETSController = "tracks.singlePlayer.advanced.olets.Agent";
 
-		String miJugador = "ricardomanuelruizalu.Agent";
+		String miJugador = "ricardomanuelruizalu.ricardomanuelruizalu";
 		
 		//Load available games
 		String spGamesCollection =  "examples/all_games_sp.csv";
@@ -37,7 +37,7 @@ public class Test {
 
 //		 Game and level to play
 		int gameIdx = 117; //117
-		int levelIdx = 0; // level names from 0 to 4 (game_lvlN.txt).
+		int levelIdx = 7; // level names from 0 to 4 (game_lvlN.txt).
 		String gameName = games[gameIdx][1];
 		System.out.println(gameName);
 		String game = games[gameIdx][0];
@@ -65,7 +65,7 @@ public class Test {
 
 		// 4. This plays a single game, in N levels, M times :
 		//String level2 = new String(game).replace(gameName, gameName + "_lvl" + 1);
-//		int M = 1000;
+//		int M = 20;
 //		int N = 1;
 //		game = games[gameIdx][0];
 //		gameName = games[gameIdx][1];

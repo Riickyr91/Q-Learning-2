@@ -8,30 +8,31 @@ import java.util.ArrayList;
  * @author Ricardo Manuel Ruiz Diaz
  */
 public class State {
+		
+	public static final int POSHIGHSPEED = 0;
+	public static final int POSHIGHLATERALSPEED = 1;
+	public static final int POSDANGER = 2;
+	public static final int POSPLANETIP = 3;
+	public static final int POSPORTALWEST = 4;
+	public static final int POSPORTALEAST = 5;
+	public static final int POSORIENTATION = 6;
+
+	public static final int NORTH = 0;
+	public static final int SOUTH = 1; 
+	public static final int EAST = 2;
+	public static final int WEST = 3;
 	
 	/**
 	 * Private attributes
 	 */
-	private boolean frontDanger;
-	private boolean backDanger;
-	private boolean leftDanger;
-	private boolean rightDanger;
 	private boolean highSpeed;
+	private boolean highLateralSpeed;
+	protected boolean danger;
 	private boolean planeTip;
-	private boolean orientation;
 	private boolean portalWest;
 	private boolean portalEast;
+	private int orientation;
 	
-	public static final int POSFRONTBLOCK = 0;
-	public static final int POSBACKBLOCK = 1;
-	public static final int POSLEFTBLOCK = 2;
-	public static final int POSRIGHTBLOCK = 3;
-	public static final int POSHIGHSPEED = 4;
-	public static final int POSPLANETIP = 5;
-	public static final int POSORIENTATION = 6;
-	public static final int POSPORTALWEST = 7;
-	public static final int POSPORTALEAST = 8;
-
 	/**
 	 * Default constructor.
 	 */
@@ -43,19 +44,15 @@ public class State {
 	 * @param obj object to be copied.
 	 */
 	public State(State obj) {	
-		this.frontDanger = obj.frontDanger;
-		this.backDanger = obj.backDanger;
-		this.leftDanger = obj.leftDanger;
-		this.rightDanger = obj.rightDanger;
-		
 		this.highSpeed = obj.highSpeed;
-
+		this.highLateralSpeed = obj.highLateralSpeed;
+		this.danger = obj.danger;
 		this.planeTip = obj.planeTip;
-		
-		this.orientation = obj.orientation;
-		
+				
 		this.portalWest = obj.portalWest;
 		this.portalEast = obj.portalEast;
+		
+		this.orientation = obj.orientation;		
 	}
 	
 	/**
@@ -73,17 +70,15 @@ public class State {
 	 * @param array Updates private attributes values.
 	 */
 	protected void update(ArrayList<Integer> array) {	
-		frontDanger = (array.get(POSFRONTBLOCK) == 0 ? false : true);
-		backDanger = (array.get(POSBACKBLOCK) == 0 ? false : true);	
-		leftDanger = (array.get(POSLEFTBLOCK) == 0 ? false : true);
-		rightDanger = (array.get(POSRIGHTBLOCK) == 0 ? false : true);	
 		highSpeed = (array.get(POSHIGHSPEED) == 0 ? false : true);
+		highLateralSpeed = (array.get(POSHIGHLATERALSPEED) == 0 ? false : true);
+		danger = (array.get(POSDANGER) == 0 ? false : true);
 		planeTip = (array.get(POSPLANETIP) == 0 ? true : false); 
-		orientation = (array.get(POSORIENTATION) == 0 ? false : true); 	//False Down
-																		//True Up
+
 		portalWest = (array.get(POSPORTALWEST) == 0 ? false : true);
 		portalEast = (array.get(POSPORTALEAST) == 0 ? false : true);
-
+		
+		orientation = array.get(POSORIENTATION);
 	}
 	
 	/**
@@ -94,6 +89,22 @@ public class State {
 		return highSpeed;
 	}
 
+	/**
+	 * Return orientation of the avatar.
+	 * @return orientation of the avatar.
+	 */
+	public int getOrientation() {
+		return orientation;
+	}
+
+	/**
+	 * Return if the lateral speed high.
+	 * @return true if is higher speed.
+	 */
+	public boolean getHighLateralSpeed() {
+		return highLateralSpeed;
+	}
+	
 	/**
 	 * Return if the avatar tip is correct.
 	 * @return true if the avatar tip is correct ( NORTH ).
@@ -132,16 +143,13 @@ public class State {
 	@Override
 	public boolean equals(Object obj) {
 		State aux = (State) obj;
-		return ( this.frontDanger == aux.frontDanger &&
-				 this.backDanger == aux.backDanger &&
-				 this.leftDanger == aux.leftDanger &&
-				 this.rightDanger == aux.rightDanger &&
-				 this.highSpeed == aux.highSpeed && 
+		return ( this.highSpeed == aux.highSpeed && 
+				 this.highLateralSpeed == aux.highLateralSpeed &&
 				 this.planeTip == aux.planeTip &&
 				 this.orientation == aux.orientation &&
 				 this.portalWest == aux.portalWest &&
-				 this.portalEast == aux.portalEast);
-		
+				 this.portalEast == aux.portalEast &&
+				 this.orientation == aux.orientation);		
 	}
 
 	/**
@@ -151,17 +159,38 @@ public class State {
 	public String toString() {
 		String str = "";
 		
-		str =  	"frontDanger = " + Boolean.toString(frontDanger) + "\n" + 
-				"backDanger = " + Boolean.toString(backDanger) + "\n" + 
-				"leftDanger = " + Boolean.toString(leftDanger) + "\n" + 
-				"rigthDanger = " + Boolean.toString(rightDanger) + "\n" + 
-				"highSpeed = " + Boolean.toString(highSpeed) + "\n" + 
+		str =  	"highSpeed = " + Boolean.toString(highSpeed) + "\n" + 
+				"highLateralSpeed = " + Boolean.toString(highLateralSpeed) + "\n" + 
+				"danger = " + Boolean.toString(danger) + "\n" + 
 				"planeTip = " + Boolean.toString(planeTip) + "\n" + 
-				"orientation = " + (orientation == false ? "Down" : "Up") + "\n" + 
 				"portalWest = " + Boolean.toString(portalWest) + "\n" + 
-				"portalEast = " + Boolean.toString(portalEast) + "\n"; 
+				"portalEast = " + Boolean.toString(portalEast) + "\n" + 
+				"portalDown = ";
+
+		if (!portalWest && !portalEast) {
+			str += "true" + "\n";
+		} else {
+			str += "false" + "\n";
+		}
+
+		str += "orientation = ";
+		
+		switch (orientation) {
+		case NORTH:
+			str += "North";
+			break;
+		case SOUTH:
+			str += "South";
+			break;
+		case EAST:
+			str += "East";
+			break;
+		case WEST:
+			str += "West";
+			break;
+		}
 		
 		return str;
 	}
-	
+
 }
