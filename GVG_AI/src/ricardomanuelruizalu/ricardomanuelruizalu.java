@@ -27,7 +27,7 @@ public class ricardomanuelruizalu extends AbstractPlayer {
     /**
      * List of available actions for the agent
      */
-   
+      
     private StateObservation stateObs;
     private Brain brain;
     private boolean explotar;
@@ -83,14 +83,14 @@ public class ricardomanuelruizalu extends AbstractPlayer {
     	System.out.println("QTable saved!");
     	
     	//Time and alpha parameters
-//        double time = QLearning.time;
-//    	double alpha = brain.getAlpha();
-//		System.out.println("Time = " + time + " Alpha = " + alpha);
-
+        double time = QLearning.time;
+    	double alpha = brain.getAlpha();
+		System.out.println("Time = " + time + " Alpha = " + alpha);
+		
     	//Data to excell
 //    	String row = Double.toString(time) + "," + Double.toString(alpha) + "," + Double.toString(score) + "\n";
 //    	IOModule.write("./time_alpha_score.csv", row, true);
-//    	
+    	
 
 	}
 }

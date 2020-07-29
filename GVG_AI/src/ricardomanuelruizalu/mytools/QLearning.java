@@ -24,7 +24,7 @@ public class QLearning {
 	private boolean winCounter;
 	private boolean deadCounter;
 	
-	private final float CONSTANT = 20; //N = 2 -> 45000
+	private final float CONSTANT = 25000; //N = 2 -> 45000
 	
 	private final float TIPREWARD = 400; // 400
 	private final float BESTTIPREWARD = 100	; // 100
@@ -116,7 +116,7 @@ public class QLearning {
 		
 		//Win reward
 		if (winCounter && currentState.isPlaneTip()) {
-			System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+//			System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 			finalReward +=  WINREWARD;
 		}
 		

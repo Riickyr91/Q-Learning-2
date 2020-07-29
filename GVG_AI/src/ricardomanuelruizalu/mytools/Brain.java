@@ -64,9 +64,12 @@ public class Brain {
 		
 		lastAction = stateObs.getAvatarLastAction();
 	
-//        int ticks = stateObs.getGameTick(); 
-//        IOModule.write("./History.txt", ticks + "\n" + currentState.toString(), true);
-        		
+        //int ticks = stateObs.getGameTick(); 
+        //IOModule.write("./History.txt", ticks + "\n" + currentState.toString(), true);
+        
+        //System.out.println(ticks);
+        //System.out.println(currentState.toString());
+        
 		return qLearning.learn(previousState, lastAction, currentState);
 
 	}
