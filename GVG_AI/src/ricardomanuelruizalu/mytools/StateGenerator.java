@@ -19,10 +19,13 @@ public class StateGenerator {
 		values[1] = 1;
 		
 		// Generation and filtering states without compass
-		ArrayList<ArrayList<Integer>> combStates = combnk(6, values);
+		ArrayList<ArrayList<Integer>> combStates = combnk(3, values);
 		
-		int[] orientationValues = {State.NORTH, State.SOUTH, State.EAST, State.WEST};
+		int[] orientationValues = {State.DANGERLEFT, State.LEFT, State.CENTER, State.RIGHT, State.DANGERRIGHT};
 		combStates = addInteger2Combination(combStates, orientationValues);
+		
+		int[] displacementValues = {State.DANGERLEFT, State.LEFT, State.CENTER, State.RIGHT, State.DANGERRIGHT};
+		combStates = addInteger2Combination(combStates, displacementValues);
 
 		filterStates(combStates);
 				
@@ -146,7 +149,7 @@ public class StateGenerator {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("Longitud = " + StateGenerator.generate().size());
+		System.out.println("Longitud = " + StateGenerator.generate().size());	
 	}
 	
 }

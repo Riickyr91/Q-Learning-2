@@ -64,11 +64,11 @@ public class Brain {
 		
 		lastAction = stateObs.getAvatarLastAction();
 	
-        //int ticks = stateObs.getGameTick(); 
-        //IOModule.write("./History.txt", ticks + "\n" + currentState.toString(), true);
-        
-        //System.out.println(ticks);
-        //System.out.println(currentState.toString());
+//        int ticks = stateObs.getGameTick(); 
+//        IOModule.write("./History.txt", ticks + "\n" + currentState.toString(), true);
+//        
+//        System.out.println(ticks);
+//        System.out.println(currentState.toString());
         
 		return qLearning.learn(previousState, lastAction, currentState);
 
@@ -86,8 +86,7 @@ public class Brain {
 
         ACTIONS action = qTable.getBestAction(currentState);
         
-		int ticks = stateObs.getGameTick();
-		
+//		int ticks = stateObs.getGameTick();		
 //		IOModule.write("./History.txt", ticks + "\n" + currentState.toString()  + "\n"  + action.toString() + "\n\n", true);
 
         return action;
@@ -104,8 +103,10 @@ public class Brain {
 	 * Let qlearning know if he has won.
 	 */
 	public void agentWin() {
-		qLearning.agentWin();
-		qLearning.learn(previousState, lastAction, currentState);
+		if(currentState.getSpeed() <= AgentState.SPEEDLIMIT) {
+			qLearning.agentWin();
+			qLearning.learn(previousState, lastAction, currentState);
+		}
 	}
 	
 	/**

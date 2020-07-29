@@ -10,28 +10,25 @@ import java.util.ArrayList;
 public class State {
 		
 	public static final int POSHIGHSPEED = 0;
-	public static final int POSHIGHLATERALSPEED = 1;
-	public static final int POSDANGER = 2;
-	public static final int POSPLANETIP = 3;
-	public static final int POSPORTALWEST = 4;
-	public static final int POSPORTALEAST = 5;
-	public static final int POSORIENTATION = 6;
+	public static final int POSPORTALEAST = 1;
+	public static final int POSPORTALWEST = 2;
+	public static final int POSORIENTATION = 3;
+	public static final int POSDISPLACEMENT = 4;
 
-	public static final int NORTH = 0;
-	public static final int SOUTH = 1; 
-	public static final int EAST = 2;
-	public static final int WEST = 3;
-	
+	public static final int DANGERLEFT = 0;
+	public static final int LEFT = 1;
+	public static final int CENTER = 3;
+	public static final int RIGHT = 2;
+	public static final int	DANGERRIGHT = 4;
+		
 	/**
 	 * Private attributes
 	 */
 	private boolean highSpeed;
-	private boolean highLateralSpeed;
-	protected boolean danger;
-	private boolean planeTip;
 	private boolean portalWest;
 	private boolean portalEast;
 	private int orientation;
+	private int displacement;
 	
 	/**
 	 * Default constructor.
@@ -44,15 +41,11 @@ public class State {
 	 * @param obj object to be copied.
 	 */
 	public State(State obj) {	
-		this.highSpeed = obj.highSpeed;
-		this.highLateralSpeed = obj.highLateralSpeed;
-		this.danger = obj.danger;
-		this.planeTip = obj.planeTip;
-				
+		this.highSpeed = obj.highSpeed;			
 		this.portalWest = obj.portalWest;
 		this.portalEast = obj.portalEast;
-		
-		this.orientation = obj.orientation;		
+		this.orientation = obj.orientation;
+		this.displacement = obj.displacement;
 	}
 	
 	/**
@@ -66,19 +59,14 @@ public class State {
 	
 	/**
 	 * Updates private attributes values.
-	 * 
 	 * @param array Updates private attributes values.
 	 */
 	protected void update(ArrayList<Integer> array) {	
 		highSpeed = (array.get(POSHIGHSPEED) == 0 ? false : true);
-		highLateralSpeed = (array.get(POSHIGHLATERALSPEED) == 0 ? false : true);
-		danger = (array.get(POSDANGER) == 0 ? false : true);
-		planeTip = (array.get(POSPLANETIP) == 0 ? true : false); 
-
 		portalWest = (array.get(POSPORTALWEST) == 0 ? false : true);
 		portalEast = (array.get(POSPORTALEAST) == 0 ? false : true);
-		
 		orientation = array.get(POSORIENTATION);
+		displacement = array.get(POSDISPLACEMENT);
 	}
 	
 	/**
@@ -98,19 +86,11 @@ public class State {
 	}
 
 	/**
-	 * Return if the lateral speed high.
-	 * @return true if is higher speed.
+	 * Return displacement of the avatar
+	 * @return displacement of the avatar
 	 */
-	public boolean getHighLateralSpeed() {
-		return highLateralSpeed;
-	}
-	
-	/**
-	 * Return if the avatar tip is correct.
-	 * @return true if the avatar tip is correct ( NORTH ).
-	 */
-	public boolean isPlaneTip() {
-		return planeTip;
+	public int getDisplacement() {
+		return this.displacement;
 	}
 	
 	/**
@@ -144,12 +124,10 @@ public class State {
 	public boolean equals(Object obj) {
 		State aux = (State) obj;
 		return ( this.highSpeed == aux.highSpeed && 
-				 this.highLateralSpeed == aux.highLateralSpeed &&
-				 this.planeTip == aux.planeTip &&
 				 this.orientation == aux.orientation &&
 				 this.portalWest == aux.portalWest &&
 				 this.portalEast == aux.portalEast &&
-				 this.orientation == aux.orientation);		
+				 this.displacement == aux.displacement);		
 	}
 
 	/**
@@ -160,9 +138,6 @@ public class State {
 		String str = "";
 		
 		str =  	"highSpeed = " + Boolean.toString(highSpeed) + "\n" + 
-				"highLateralSpeed = " + Boolean.toString(highLateralSpeed) + "\n" + 
-				"danger = " + Boolean.toString(danger) + "\n" + 
-				"planeTip = " + Boolean.toString(planeTip) + "\n" + 
 				"portalWest = " + Boolean.toString(portalWest) + "\n" + 
 				"portalEast = " + Boolean.toString(portalEast) + "\n" + 
 				"portalDown = ";
@@ -176,18 +151,41 @@ public class State {
 		str += "orientation = ";
 		
 		switch (orientation) {
-		case NORTH:
-			str += "North";
-			break;
-		case SOUTH:
-			str += "South";
-			break;
-		case EAST:
-			str += "East";
-			break;
-		case WEST:
-			str += "West";
-			break;
+			case DANGERLEFT:
+				str += "DANGER LEFT";
+				break;
+			case LEFT:
+				str += "LEFT";
+				break;
+			case CENTER:
+				str += "CENTER";
+				break;
+			case RIGHT:
+				str += "RIGHT";
+				break;
+			case DANGERRIGHT:
+				str += "DANGER RIGHT";
+				break;
+		}
+		
+		str += "\ndisplacement = ";
+		
+		switch (displacement) {
+			case DANGERLEFT:
+				str += "DANGER LEFT";
+				break;
+			case LEFT:
+				str += "LEFT";
+				break;
+			case CENTER:
+				str += "CENTER";
+				break;
+			case RIGHT:
+				str += "RIGHT";
+				break;
+			case DANGERRIGHT:
+				str += "DANGER RIGHT";
+				break;
 		}
 		
 		return str;

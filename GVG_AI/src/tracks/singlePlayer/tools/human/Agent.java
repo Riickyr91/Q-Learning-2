@@ -4,6 +4,7 @@ import core.game.Game;
 import core.game.StateObservation;
 import core.player.AbstractPlayer;
 import ontology.Types;
+import ricardomanuelruizalu.mytools.AgentState;
 import tools.Direction;
 import tools.ElapsedCpuTimer;
 import tools.Utils;
@@ -14,6 +15,8 @@ import tools.Utils;
 public class Agent extends AbstractPlayer
 {
 
+	AgentState a;
+	
     /**
      * Public constructor with state observation and time due.
      * @param so state observation of the current game.
@@ -21,6 +24,7 @@ public class Agent extends AbstractPlayer
      */
     public Agent(StateObservation so, ElapsedCpuTimer elapsedTimer)
     {
+    	a = new AgentState(so);
     }
 
 
@@ -42,7 +46,11 @@ public class Agent extends AbstractPlayer
         //if(action == Types.ACTIONS.ACTION_NIL && useOn)
         if(useOn) //This allows switching to Use when moving.
             action = Types.ACTIONS.ACTION_USE;
-
+        
+        System.out.println(stateObs.getGameTick());
+        a.perceive(stateObs);
+       	System.out.println(a);
+        
 
         return action;
     }

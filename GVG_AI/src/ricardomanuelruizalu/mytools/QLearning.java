@@ -31,7 +31,6 @@ public class QLearning {
 	
 	private final float SPEEDREWARD = 200; //1500;
 	
-	private final float DEADREWARD = 2000; //2000;
 	private final float WINREWARD = 1000; //2000;
 	
 	private final float DISTANCEFACTOR = 100; //100;
@@ -240,10 +239,6 @@ public class QLearning {
 	private ACTIONS nextAction(AgentState currentState) {
 		Random rd = new Random();
 		float randomNumber = Math.abs(rd.nextFloat());
-
-//		System.out.println(currentState);
-//		
-//		return ACTIONS.ACTION_NIL;	
 				
 		if (randomNumber < epsilon) {
 			return qTable.getRandomAction();
