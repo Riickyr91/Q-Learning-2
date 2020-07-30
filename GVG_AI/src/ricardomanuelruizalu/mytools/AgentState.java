@@ -25,15 +25,16 @@ public class AgentState extends State {
 	private ArrayList<Observation>[][] grid;
 	
 	private float speed; //Velocidad del avión
-	
 	private float orientation; //Hacia donde apunta
-	
 	private float displacement;
+	
+	private boolean portalWest;
+	private boolean portalEast;
 		
 	public static final int TYPEPORTAL = 2;
 	public static final int TYPEAVATAR = 1;
 	
-	public static final float SPEEDLIMIT = 7.00f; // Para ganar tiene que ir a menos de 9.35
+	public static final float SPEEDLIMIT = 3.00f; // Para ganar tiene que ir a menos de 9.35
 	
 	public static final float ORIENTATIONLEFTPOINT = 1.83f;
 	public static final float ORIENTATIONLEFTCENTERPOINT = 1.65f;
@@ -126,8 +127,10 @@ public class AgentState extends State {
 		
 		portalDirection = getPortalDirection();
 		
-		stateValues[POSPORTALWEST] = portalDirection[0];
-		stateValues[POSPORTALEAST] = portalDirection[1];
+		stateValues[POSPORTALEAST] = portalDirection[0];
+		portalEast = ( portalDirection[0] == 0 ? false : true);
+		stateValues[POSPORTALWEST] = portalDirection[1];
+		portalWest = ( portalDirection[1] == 0 ? false : true);
 		
 		//Percieve compassTip		
 		stateValues[POSORIENTATION] = planeOrientation();	
@@ -238,12 +241,12 @@ public class AgentState extends State {
 		if(!underAvatar) {
 			
 			if(portalPos.get(0).x > agentPos.x) {
-				portalDirection[0] = 0;
-				portalDirection[1] = 1;
-			}
-			else if (portalPos.get(0).x < agentPos.x){
 				portalDirection[0] = 1;
 				portalDirection[1] = 0;
+			}
+			else if (portalPos.get(0).x < agentPos.x){
+				portalDirection[0] = 0;
+				portalDirection[1] = 1;
 			}
 		}
 		
@@ -389,9 +392,21 @@ public class AgentState extends State {
 	public ArrayList<Vector2d> getPortalPos(){
 		return portalPos;
 	}
-	
+		
+	public boolean isPortalWest() {
+		return portalWest;
+	}
+
+	public boolean isPortalEast() {
+		return portalEast;
+	}
+
 	public float getSpeed() {
 		return speed;
+	}
+	
+	public Vector2d getAgentPos() {
+		return agentPos;
 	}
 	
 	/**

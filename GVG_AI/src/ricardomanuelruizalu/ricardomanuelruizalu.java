@@ -19,18 +19,16 @@ import tools.ElapsedCpuTimer;
  * This is a Java port from Tom Schaul's VGDL - https://github.com/schaul/py-vgdl
  */
 public class ricardomanuelruizalu extends AbstractPlayer {
+	
     /**
      * Random generator for the agent.
      */
     protected Random randomGenerator;
     
-    /**
-     * List of available actions for the agent
-     */
-      
     private StateObservation stateObs;
     private Brain brain;
     private boolean explotar;
+    private ACTIONS act;
     
     /**
      * Public constructor with state observation and time due.
@@ -43,10 +41,10 @@ public class ricardomanuelruizalu extends AbstractPlayer {
         brain = new Brain(stateObs, savePath);
         this.stateObs = stateObs;
         //explotar
-        explotar = true;
+//        explotar = true;
         
         //explorar
-//        explotar = false;
+        explotar = false;
     }
 
     /**
@@ -61,14 +59,16 @@ public class ricardomanuelruizalu extends AbstractPlayer {
     	this.stateObs = stateObs;
 
     	if(explotar) {
-        	return brain.act(stateObs);
+    		act = brain.act(stateObs);
+    		System.out.println(act);
+    		System.out.println(stateObs.getAvatarSpeed());
+        	return act;
     	} else {
         	return brain.learn(stateObs);    		
     	}    	
     }
     
 	public void close(double score) {
-   	
 		if (!explotar) {
 			// Update score
 			if (score > 0) {
@@ -82,7 +82,7 @@ public class ricardomanuelruizalu extends AbstractPlayer {
     	brain.saveQTable();
     	System.out.println("QTable saved!");
     	
-    	//Time and alpha parameters
+//    	Time and alpha parameters
         double time = QLearning.time;
     	double alpha = brain.getAlpha();
 		System.out.println("Time = " + time + " Alpha = " + alpha);

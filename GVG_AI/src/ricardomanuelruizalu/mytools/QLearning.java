@@ -24,16 +24,16 @@ public class QLearning {
 	private boolean winCounter;
 	private boolean deadCounter;
 	
-	private final float CONSTANT = 25000; //N = 2 -> 45000
+	private final float CONSTANT = 50000;
 	
-	private final float TIPREWARD = 400; // 400
-	private final float BESTTIPREWARD = 100	; // 100
+	private final float TIPREWARD = 400;
+	private final float TIPPUNISH = 600;
+			
+	private final float SPEEDREWARD = 800;
 	
-	private final float SPEEDREWARD = 200; //1500;
+	private final float WINREWARD = 1000;	
 	
-	private final float WINREWARD = 1000; //2000;
-	
-	private final float DISTANCEFACTOR = 100; //100;
+	private final float DISTANCEFACTOR = 100;
 		
 	/**
 	 * Constructor. Initializes the Qtable.
@@ -88,130 +88,111 @@ public class QLearning {
 	private float reward(AgentState previousState, ACTIONS lastAction, AgentState currentState) {
 		float finalReward = 0;
 		
+		boolean east = currentState.isPortalEast();
+		boolean west = currentState.isPortalWest();
+		
+		int orientation = currentState.getOrientation();
+		int displacement = currentState.getDisplacement();
+		
+		//Orientación Y Desplazamiento
+		if(east) {
+			if(orientation == State.RIGHT) {
+				finalReward += TIPREWARD;
+			}
+			else if(orientation == State.CENTER || orientation == State.LEFT) {
+				
+			}
+			else if(orientation == State.DANGERLEFT || orientation == State.DANGERRIGHT) {
+				finalReward -= TIPPUNISH;
+			}
+			
+			if(displacement == State.RIGHT) {
+				finalReward += TIPREWARD;
+			}
+			else if(displacement == State.CENTER || displacement == State.LEFT) {
+				
+			}
+			else if(displacement == State.DANGERLEFT || displacement == State.DANGERRIGHT) {
+				finalReward -= TIPPUNISH;
+			}
+			
+		}
+		else if(west) {
+			if(orientation == State.LEFT) {
+				finalReward += TIPREWARD;
+			}
+			else if(orientation == State.CENTER || orientation == State.RIGHT) {
+				
+			}
+			else if(orientation == State.DANGERLEFT || orientation == State.DANGERRIGHT) {
+				finalReward -= TIPPUNISH;
+			}
+			
+			if(displacement == State.LEFT) {
+				finalReward += TIPREWARD;
+			}
+			else if(displacement == State.CENTER || displacement == State.RIGHT) {
+				
+			}
+			else if(displacement == State.DANGERLEFT || displacement == State.DANGERRIGHT) {
+				finalReward -= TIPPUNISH;
+			}
+		}
+		else if (!east && !west) {
+			if(orientation == State.CENTER) {
+				finalReward += TIPREWARD;
+			}
+			else if(orientation == State.RIGHT || orientation == State.LEFT) {
+				
+			}
+			else if(orientation == State.DANGERLEFT || orientation == State.DANGERRIGHT) {
+				finalReward -= TIPPUNISH;
+			}
+			
+			if(displacement == State.CENTER) {
+				finalReward += TIPREWARD;
+			}
+			else if(displacement == State.RIGHT || displacement == State.LEFT) {
+				
+			}
+			else if(displacement == State.DANGERLEFT || displacement == State.DANGERRIGHT) {
+				finalReward -= TIPPUNISH;
+			}			
+		}
+				
 		//Distance reward
 		float distanceReward = 0;
 
 		double currentX = currentState.getAgentPos().x;
 		double previousX = previousState.getAgentPos().x;
 			
-//		if(currentState.isPortalWest()) {
-//			if(currentX < previousX) {
-//				distanceReward += DISTANCEFACTOR;
-//			}
-//		}
-//
-//		else if(currentState.isPortalEast()) {
-//			if(currentX > previousX) {
-//				distanceReward += DISTANCEFACTOR;
-//			}
-//		}
-		
-		finalReward += distanceReward;
-		
-		//Dead reward
-		if (deadCounter || (winCounter && !currentState.isPlaneTip())) {
-			finalReward -= DEADREWARD;
+		if(currentState.isPortalWest()) {
+			if(currentX < previousX) {
+				distanceReward += DISTANCEFACTOR;
+			}
+		}
+
+		else if(currentState.isPortalEast()) {
+			if(currentX > previousX) {
+				distanceReward += DISTANCEFACTOR;
+			}
 		}
 		
+		finalReward += distanceReward;
+				
 		//Win reward
-		if (winCounter && currentState.isPlaneTip()) {
-//			System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+		if (winCounter && currentState.getOrientation() != State.DANGERLEFT && currentState.getOrientation() != State.DANGERRIGHT) {
 			finalReward +=  WINREWARD;
 		}
 		
 		// Speed reward
 		if(currentState.getSpeed() > AgentState.SPEEDLIMIT) {
 			finalReward -= SPEEDREWARD;
-		} 		
-		
-//		// LateralSpeedReward
-//		if(currentState.isHighLateralSpeed() && (currentState.isPortalEast() || currentState.isPortalWest())) {
-//			double x = currentState.agentOrientation().x;
-//			double y = currentState.agentOrientation().y;
-//			
-//			double angle = Math.atan(y/x);
-//			
-//			if((x > 0 && y < 0) || (x < 0 && y > 0)) {
-//				angle = angle + Math.PI;
-//			}
-//			
-//			float angleInit = (float) angle - 0.15f;
-//			float angleFin = (float) angle + 0.15f;
-//			
-//			float currentTip = currentState.getTip();
-//			float previousTip = previousState.getTip();
-//			
-//			if (currentTip < angleInit && currentTip > previousTip) {
-//				finalReward += 2 * BESTTIPREWARD;
-//			} else if (currentTip > angleFin && currentTip < previousTip) {
-//				finalReward += 2 * BESTTIPREWARD;
-//			}	
-//			
-//			if (currentTip > angleInit && currentTip < angleFin) {
-//				finalReward += 2 * TIPREWARD;
-//			}
-//		
-//		}
-		
-		//Correction de tip
-		float currentTip = currentState.getTip();
-		float previousTip = previousState.getTip();
-	
-		// Tip reward
-		if (!currentState.isPlaneTip()) {// && !currentState.isHighLateralSpeed()) {
-			finalReward -= TIPREWARD;
-
-			
-			if (currentTip > Math.PI) {
-				finalReward -= TIPREWARD;
-			}
-			
-			if(currentTip == previousTip) {
-				finalReward -= BESTTIPREWARD;
-			}
-
-			// Portal is to the left of the avatar
-			if (currentState.isPortalWest()) {
-				if ((currentTip < AgentState.WESTPOINTINIT && currentTip > previousTip) ||
-						(currentTip >= 0 && previousTip >= 6)) {
-					finalReward += BESTTIPREWARD;
-				} else if ((currentTip > AgentState.WESTPOINTFINISH && currentTip <= 5.5f && previousTip <= 5.5f) && (currentTip < previousTip)) {
-					finalReward += BESTTIPREWARD;
-				} else if ((currentTip > 5.5f && previousTip > 5.5f) && (currentTip > previousTip)) {
-					finalReward += BESTTIPREWARD;
-				}
-			}
-
-			// Portal is to the right of the avatar
-			else if (currentState.isPortalEast()) {
-				if ((currentTip < AgentState.EASTPOINTINIT && currentTip > previousTip) ||
-						(currentTip >= 0 && previousTip >= 6)) {
-					finalReward += BESTTIPREWARD;
-				} else if ((currentTip > AgentState.EASTPOINTFINISH && currentTip <= 3.92f && previousTip <= 3.92f)	&& (currentTip < previousTip)) {
-					finalReward += BESTTIPREWARD;
-				} else if ((currentTip > 3.92f && previousTip > 3.92f) && (currentTip > previousTip)) {
-					finalReward += BESTTIPREWARD;
-				}
-			}
-
-			// Portal is to under of the avatar
-			else if (currentState.isPortalDown()) {
-				if ((currentTip < AgentState.NORTHPOINTINIT && currentTip > previousTip) ||
-						(currentTip >= 0 && previousTip >= 6)) {
-					finalReward += BESTTIPREWARD;
-				} else if ((currentTip > AgentState.NORTHPOINTFINISH && currentTip <= 4.71f && previousTip <= 4.71f ) && (currentTip < previousTip)) {
-					finalReward += BESTTIPREWARD;
-				} else if ((currentTip > 4.71f && previousTip > 4.71f) && (currentTip > previousTip)) {
-					finalReward += BESTTIPREWARD;
-				}
-			}
-
-		} else {
-
-			finalReward += TIPREWARD;
-						
+		} 	
+		else if( currentState.getSpeed() < AgentState.SPEEDLIMIT) {
+			finalReward += 200;
 		}
-
+		
 		return finalReward;
 	}
 	
