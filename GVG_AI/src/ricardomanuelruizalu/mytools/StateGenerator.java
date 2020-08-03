@@ -24,7 +24,7 @@ public class StateGenerator {
 		int[] orientationValues = {State.DANGERLEFT, State.LEFT, State.CENTER, State.RIGHT, State.DANGERRIGHT};
 		combStates = addInteger2Combination(combStates, orientationValues);
 		
-		int[] displacementValues = {State.DANGERLEFT, State.LEFT, State.CENTER, State.RIGHT, State.DANGERRIGHT};
+		int[] displacementValues = {State.NORTH, State.SOUTH, State.EAST, State.SOUTHEAST, State.EASTSOUTH, State.WEST, State.SOUTHWEST, State.WESTSOUTH};
 		combStates = addInteger2Combination(combStates, displacementValues);
 
 		filterStates(combStates);
@@ -147,9 +147,9 @@ public class StateGenerator {
 		
 		return true;	
 	}
-	
+		
 	public static void main(String[] args) {
-		System.out.println("Longitud = " + StateGenerator.generate().size());	
+		System.out.println("Longitud = " + StateGenerator.generate().size());
 	}
 	
 }

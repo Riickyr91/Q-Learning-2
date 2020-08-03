@@ -51,7 +51,7 @@ public class Test {
 						// executed. null if not to save.
 
 		// 1. This starts a game, in a level, played by a human.
-//		ArcadeMachine.playOneGame(game, level1, recordActionsFile, seed);
+		ArcadeMachine.playOneGame(game, level1, recordActionsFile, seed);
 
 		// 2. This plays a game in a level by the controller.
 //  		ArcadeMachine.runOneGame(game, level1, visuals, sampleRHEAController, recordActionsFile, seed, 0);
@@ -65,15 +65,15 @@ public class Test {
 
 		// 4. This plays a single game, in N levels, M times :
 		//String level2 = new String(game).replace(gameName, gameName + "_lvl" + 1);
-		int M = 3000;
-		int N = 1;
-		game = games[gameIdx][0];
-		gameName = games[gameIdx][1];
-		for(int i=0; i<N; i++){
-			level1 = game.replace(gameName, gameName + "_lvl" + i);
-			// ArcadeMachine.runGames(game, new String[]{level1}, M, sampleMCTSController, null);
-			ArcadeMachine.runGames(game, new String[]{level1}, M, miJugador, null);
-		}
+//		int M = 3000;
+//		int N = 1;
+//		game = games[gameIdx][0];
+//		gameName = games[gameIdx][1];
+//		for(int i=0; i<N; i++){
+//			level1 = game.replace(gameName, gameName + "_lvl" + i);
+//			// ArcadeMachine.runGames(game, new String[]{level1}, M, sampleMCTSController, null);
+//			ArcadeMachine.runGames(game, new String[]{level1}, M, miJugador, null);
+//		}
 
 		//5. This plays N games, in the first L levels, M times each. Actions to file optional (set saveActions to true).
 //		int N = games.length, L = 2, M = 1;

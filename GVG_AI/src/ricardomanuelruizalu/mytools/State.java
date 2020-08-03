@@ -20,6 +20,16 @@ public class State {
 	public static final int CENTER = 3;
 	public static final int RIGHT = 2;
 	public static final int	DANGERRIGHT = 4;
+	
+	public static final int NORTH = 0;
+	public static final int SOUTH = 1;
+	public static final int SOUTHEAST = 2; 
+	public static final int EASTSOUTH = 3;
+	public static final int EAST = 4;
+	public static final int SOUTHWEST = 5; 
+	public static final int WESTSOUTH = 6;
+	public static final int WEST = 7;
+	
 		
 	/**
 	 * Private attributes
@@ -171,20 +181,29 @@ public class State {
 		str += "\ndisplacement = ";
 		
 		switch (displacement) {
-			case DANGERLEFT:
-				str += "DANGER LEFT";
+			case NORTH:
+				str += "NORTH";
 				break;
-			case LEFT:
-				str += "LEFT";
+			case SOUTH:
+				str += "SOUTH";
 				break;
-			case CENTER:
-				str += "CENTER";
+			case EAST:
+				str += "EAST";
 				break;
-			case RIGHT:
-				str += "RIGHT";
+			case SOUTHEAST:
+				str += "SOUTHEAST";
 				break;
-			case DANGERRIGHT:
-				str += "DANGER RIGHT";
+			case EASTSOUTH:
+				str += "EASTSOUTH";
+				break;
+			case WEST:
+				str += "WEST";
+				break;
+			case WESTSOUTH:
+				str += "WESTSOUTH";
+				break;
+			case SOUTHWEST:
+				str += "SOUTHWEST";
 				break;
 		}
 		

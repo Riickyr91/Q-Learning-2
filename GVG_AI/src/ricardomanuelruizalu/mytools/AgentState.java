@@ -41,10 +41,15 @@ public class AgentState extends State {
 	public static final float ORIENTATIONCENTERRIGHTPOINT = 1.48f;  	
 	public static final float ORIENTATIONRIGHTPOINT = 1.30f;
 	
-	public static final float DISPLACEMENTLEFTPOINT = 4.45f;
-	public static final float DISPLACEMENTLEFTCENTERPOINT = 4.62f;
-	public static final float DISPLACEMENTCENTERRIGHTPOINT = 4.79f;  	
-	public static final float DISPLACEMENTRIGHTPOINT = 4.97f;
+	public static final float W = 3.0F;  	
+	public static final float WS = 3.4f;
+	public static final float SW = 3.95f;
+	public static final float SOUTHW = 4.5f;
+	public static final float SOUTHE = 4.9f;
+	public static final float SE = 5.45f;
+	public static final float ES = 6f;
+	public static final float E = 0.2f;
+
 		
 	/**
 	 * Constructor.
@@ -259,22 +264,27 @@ public class AgentState extends State {
 	 * @param orientation is avatar.
 	 * @return 0 if orientation is down.
 	 */
-	private int getAvatarDisplacement() {
-		int avatarOrientation = State.DANGERRIGHT;
-		
-		if(this.displacement < DISPLACEMENTLEFTPOINT && this.displacement >= 1.57f )
-			avatarOrientation = State.DANGERLEFT;
-		else if(this.displacement >= DISPLACEMENTLEFTPOINT && this.displacement < DISPLACEMENTLEFTCENTERPOINT)
-			avatarOrientation = State.LEFT;
-		else if(this.displacement >= DISPLACEMENTLEFTCENTERPOINT && this.displacement < DISPLACEMENTCENTERRIGHTPOINT)
-			avatarOrientation = State.CENTER;
-		else if(this.displacement >= DISPLACEMENTCENTERRIGHTPOINT && this.displacement < DISPLACEMENTRIGHTPOINT)
-			avatarOrientation = State.RIGHT;
-		else if(this.displacement >= DISPLACEMENTRIGHTPOINT || this.displacement < 1.57f)
-			avatarOrientation = State.DANGERRIGHT;
-				
-		return avatarOrientation;	
+	public int getAvatarDisplacement() {	
+		if(this.displacement < W && this.displacement > E )
+			return State.NORTH;
+		else if(this.displacement <= E)
+			return State.EAST;
+		else if(this.displacement <= WS)
+			return State.WEST;
+		else if(this.displacement < SW)
+			return State.WESTSOUTH;
+		else if(this.displacement < SOUTHW)
+			return State.SOUTHWEST;
+		else if(this.displacement <= SOUTHE)
+			return State.SOUTH;
+		else if(this.displacement < SE)
+			return State.SOUTHEAST;
+		else if(this.displacement <ES)
+			return State.EASTSOUTH;
+		else
+			return State.EAST;	
 	}
+	
 	
 	/**
 	 * Return the nearest portal.
