@@ -24,12 +24,13 @@ public class QLearning {
 	private boolean winCounter;
 	private boolean deadCounter;
 	
-	private final float CONSTANT = 50000;
-	
+//	private final float CONSTANT = 50000;
+	private final float CONSTANT = 16000;
+
 	private final float TIPREWARD = 400;
-	private final float TIPPUNISH = 600;
+	private final float TIPPUNISH = 400;
 			
-	private final float SPEEDREWARD = 800;
+	private final float SPEEDREWARD = 1500;
 	
 	private final float WINREWARD = 1000;	
 	
@@ -94,69 +95,101 @@ public class QLearning {
 		int orientation = currentState.getOrientation();
 		int displacement = currentState.getDisplacement();
 		
+		if(displacement == State.NORTH) {
+			finalReward -= 1000;
+		}
+		
 		//Orientación Y Desplazamiento
 		if(east) {
+			//ORIENTACION
 			if(orientation == State.RIGHT) {
 				finalReward += TIPREWARD;
 			}
 			else if(orientation == State.CENTER || orientation == State.LEFT) {
-				
+				finalReward -= TIPPUNISH;
 			}
 			else if(orientation == State.DANGERLEFT || orientation == State.DANGERRIGHT) {
-				finalReward -= TIPPUNISH;
+				finalReward -= TIPPUNISH * 1.5f ;
 			}
 			
-			if(displacement == State.RIGHT) {
+			//DESPLAZAMIENTO
+			if(displacement == State.EAST) {
 				finalReward += TIPREWARD;
 			}
-			else if(displacement == State.CENTER || displacement == State.LEFT) {
+			else if(displacement == State.EASTSOUTH) {
 				
 			}
-			else if(displacement == State.DANGERLEFT || displacement == State.DANGERRIGHT) {
+			else if(displacement == State.SOUTHEAST || displacement == State.SOUTH) {
 				finalReward -= TIPPUNISH;
+			}
+			else if(displacement == State.SOUTHWEST || displacement == State.WESTSOUTH || displacement == State.WEST) {
+				finalReward -= TIPPUNISH * 1.5f;
 			}
 			
 		}
+		
 		else if(west) {
+			//ORIENTACION
 			if(orientation == State.LEFT) {
 				finalReward += TIPREWARD;
 			}
 			else if(orientation == State.CENTER || orientation == State.RIGHT) {
-				
+				finalReward -= TIPREWARD;
 			}
 			else if(orientation == State.DANGERLEFT || orientation == State.DANGERRIGHT) {
-				finalReward -= TIPPUNISH;
+				finalReward -= TIPPUNISH * 1.5f;
 			}
 			
-			if(displacement == State.LEFT) {
+			//DESPLAZAMIENTO
+			if(displacement == State.WEST) {
 				finalReward += TIPREWARD;
 			}
-			else if(displacement == State.CENTER || displacement == State.RIGHT) {
+			else if(displacement == State.WESTSOUTH) {
 				
 			}
-			else if(displacement == State.DANGERLEFT || displacement == State.DANGERRIGHT) {
+			else if(displacement == State.SOUTH || displacement == State.SOUTHWEST) {
 				finalReward -= TIPPUNISH;
 			}
+			else if(displacement == State.SOUTHEAST || displacement == State.EASTSOUTH  || displacement == State.EAST) {
+				finalReward -= TIPPUNISH * 1.5f;
+			}
 		}
+		
 		else if (!east && !west) {
+			//ORIENTACION
 			if(orientation == State.CENTER) {
 				finalReward += TIPREWARD;
 			}
 			else if(orientation == State.RIGHT || orientation == State.LEFT) {
-				
+				finalReward -= TIPPUNISH;
 			}
 			else if(orientation == State.DANGERLEFT || orientation == State.DANGERRIGHT) {
-				finalReward -= TIPPUNISH;
+				finalReward -= TIPPUNISH * 1.5f;
 			}
 			
-			if(displacement == State.CENTER) {
+			//DESPLAZAMIENTO
+			if(displacement == State.SOUTH) {
 				finalReward += TIPREWARD;
 			}
-			else if(displacement == State.RIGHT || displacement == State.LEFT) {
-				
+			else if(displacement == State.SOUTHEAST) {
+				if(orientation == State.LEFT) {
+					
+				} else {
+					finalReward -= TIPPUNISH;
+				}
 			}
-			else if(displacement == State.DANGERLEFT || displacement == State.DANGERRIGHT) {
-				finalReward -= TIPPUNISH;
+			else if(displacement == State.SOUTHEAST) {
+				if(orientation == State.RIGHT) {
+					
+				} else {
+					finalReward -= TIPPUNISH;
+				}			
+			}
+			else if(displacement == State.EAST || displacement == State.EASTSOUTH) {
+				finalReward -= TIPPUNISH * 1.5f;
+			}
+			else if(displacement == State.WEST || displacement == State.WESTSOUTH) {
+				finalReward -= TIPPUNISH * 1.5f;
 			}			
 		}
 				

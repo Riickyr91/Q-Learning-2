@@ -40,11 +40,11 @@ public class ricardomanuelruizalu extends AbstractPlayer {
         randomGenerator = new Random();
         brain = new Brain(stateObs, savePath);
         this.stateObs = stateObs;
-        //explotar
-//        explotar = true;
+        //Explotar
+        explotar = true;
         
-        //explorar
-        explotar = false;
+        //Aprender
+//        explotar = false;
     }
 
     /**
@@ -60,8 +60,6 @@ public class ricardomanuelruizalu extends AbstractPlayer {
 
     	if(explotar) {
     		act = brain.act(stateObs);
-    		System.out.println(act);
-    		System.out.println(stateObs.getAvatarSpeed());
         	return act;
     	} else {
         	return brain.learn(stateObs);    		
