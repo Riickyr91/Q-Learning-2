@@ -1,0 +1,3024 @@
+0
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = DANGER RIGHT
+displacement = EAST
+Agent position = 14.0 : 2.0
+Displacement = -0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+1
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = DANGER RIGHT
+displacement = EAST
+Agent position = 14.0 : 2.0
+Displacement = -0.0
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.5
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+2
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = DANGER RIGHT
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.712389
+Hacia donde apunta = 2.0980835E-7
+Speed = 0.3
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_LEFT
+
+3
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = DANGER RIGHT
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.712389
+Hacia donde apunta = 0.20000021
+Speed = 0.6
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_LEFT
+
+4
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = DANGER RIGHT
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.712389
+Hacia donde apunta = 0.4000002
+Speed = 0.9
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_LEFT
+
+5
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = DANGER RIGHT
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.712389
+Hacia donde apunta = 0.6000002
+Speed = 1.2
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_LEFT
+
+6
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = DANGER RIGHT
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.712389
+Hacia donde apunta = 0.8000002
+Speed = 1.5
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_LEFT
+
+7
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = DANGER RIGHT
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.712389
+Hacia donde apunta = 1.0000002
+Speed = 1.8
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_LEFT
+
+8
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = DANGER RIGHT
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.712389
+Hacia donde apunta = 1.2000003
+Speed = 2.1
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_LEFT
+
+9
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = RIGHT
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.712389
+Hacia donde apunta = 1.4000003
+Speed = 2.4
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_LEFT
+
+10
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.712389
+Hacia donde apunta = 1.6000004
+Speed = 2.7
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+11
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.6977935
+Hacia donde apunta = 1.6000004
+Speed = 2.0006394
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+12
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.6675262
+Hacia donde apunta = 1.6000004
+Speed = 1.302163
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+13
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.56772
+Hacia donde apunta = 1.6000004
+Speed = 0.6076267
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+14
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = NORTH
+Agent position = 14.0 : 2.0
+Displacement = 2.44201
+Hacia donde apunta = 1.6000004
+Speed = 0.15265512
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+15
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.187515
+Hacia donde apunta = 1.6000004
+Speed = 0.2330814
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+16
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.483661
+Hacia donde apunta = 1.6000004
+Speed = 0.51512164
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+17
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.56772
+Hacia donde apunta = 1.6000004
+Speed = 0.8101689
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+18
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = WESTSOUTH
+Agent position = 14.0 : 2.0
+Displacement = 3.7520134
+Hacia donde apunta = 1.6000004
+Speed = 0.17817476
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+19
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.364128
+Hacia donde apunta = 1.6000004
+Speed = 0.42781472
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+20
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.5073757
+Hacia donde apunta = 1.6000004
+Speed = 0.71715033
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+21
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = WEST
+Agent position = 14.0 : 2.0
+Displacement = 3.1561944
+Hacia donde apunta = 1.6000004
+Speed = 0.17521581
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+22
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.187515
+Hacia donde apunta = 1.6000004
+Speed = 0.3496221
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+23
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.429435
+Hacia donde apunta = 1.6000004
+Speed = 0.62751144
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+24
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.520662
+Hacia donde apunta = 1.6000004
+Speed = 0.91940504
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+25
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = WESTSOUTH
+Agent position = 14.0 : 2.0
+Displacement = 3.923525
+Hacia donde apunta = 1.6000004
+Speed = 0.2880639
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+26
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.3264055
+Hacia donde apunta = 1.6000004
+Speed = 0.5429288
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+27
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.463136
+Hacia donde apunta = 1.6000004
+Speed = 0.8285907
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+28
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.5291553
+Hacia donde apunta = 1.6000004
+Speed = 1.1217636
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+29
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.187515
+Hacia donde apunta = 1.6000004
+Speed = 0.4661628
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+30
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.3917575
+Hacia donde apunta = 1.6000004
+Speed = 0.7411845
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+31
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.483661
+Hacia donde apunta = 1.6000004
+Speed = 1.0302433
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+32
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.5350523
+Hacia donde apunta = 1.6000004
+Speed = 1.3241782
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+33
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.301903
+Hacia donde apunta = 1.6000004
+Speed = 0.6585449
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+34
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.429435
+Hacia donde apunta = 1.6000004
+Speed = 0.9412672
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+35
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.4974623
+Hacia donde apunta = 1.6000004
+Speed = 1.2321876
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+36
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.539386
+Hacia donde apunta = 1.6000004
+Speed = 1.5266267
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+37
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.364128
+Hacia donde apunta = 1.6000004
+Speed = 0.85562944
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+38
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.4538803
+Hacia donde apunta = 1.6000004
+Speed = 1.1422172
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+39
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.5073757
+Hacia donde apunta = 1.6000004
+Speed = 1.4343007
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+40
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.2847257
+Hacia donde apunta = 1.6000004
+Speed = 0.77443826
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+41
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.4029627
+Hacia donde apunta = 1.6000004
+Speed = 1.0547838
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+42
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.4710045
+Hacia donde apunta = 1.6000004
+Speed = 1.3436455
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+43
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.5148396
+Hacia donde apunta = 1.6000004
+Speed = 1.6365199
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+44
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.34303
+Hacia donde apunta = 1.6000004
+Speed = 0.9705733
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+45
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.429435
+Hacia donde apunta = 1.6000004
+Speed = 1.2550229
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+46
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.483661
+Hacia donde apunta = 1.6000004
+Speed = 1.5453649
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+47
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.520662
+Hacia donde apunta = 1.6000004
+Speed = 1.8388101
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+48
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.381646
+Hacia donde apunta = 1.6000004
+Speed = 1.1688957
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+49
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.4486127
+Hacia donde apunta = 1.6000004
+Speed = 1.4558994
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+50
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.4933934
+Hacia donde apunta = 1.6000004
+Speed = 1.7472748
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+51
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.5253296
+Hacia donde apunta = 1.6000004
+Speed = 2.0411503
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+52
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.4090314
+Hacia donde apunta = 1.6000004
+Speed = 1.3684548
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+53
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.463136
+Hacia donde apunta = 1.6000004
+Speed = 1.6571814
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+54
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.5011096
+Hacia donde apunta = 1.6000004
+Speed = 1.9493158
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+55
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.364128
+Hacia donde apunta = 1.6000004
+Speed = 1.2834442
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+56
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.429435
+Hacia donde apunta = 1.6000004
+Speed = 1.5687786
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+57
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.474512
+Hacia donde apunta = 1.6000004
+Speed = 1.8587372
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+58
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.5073757
+Hacia donde apunta = 1.6000004
+Speed = 2.151451
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+59
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.3917575
+Hacia donde apunta = 1.6000004
+Speed = 1.482369
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+60
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.445213
+Hacia donde apunta = 1.6000004
+Speed = 1.7696077
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+61
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 2.0
+Displacement = 4.483661
+Hacia donde apunta = 1.6000004
+Speed = 2.0604866
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+62
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 2.0
+Displacement = 4.5125656
+Hacia donde apunta = 1.6000004
+Speed = 2.3536563
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+63
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4128366
+Hacia donde apunta = 1.6000004
+Speed = 1.6821574
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+64
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.457772
+Hacia donde apunta = 1.6000004
+Speed = 1.9707873
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+65
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4911776
+Hacia donde apunta = 1.6000004
+Speed = 2.2623775
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+66
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 3.0
+Displacement = 4.516934
+Hacia donde apunta = 1.6000004
+Speed = 2.5559149
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+67
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.429435
+Hacia donde apunta = 1.6000004
+Speed = 1.8825344
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+68
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4680033
+Hacia donde apunta = 1.6000004
+Speed = 2.1722202
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+69
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4974623
+Hacia donde apunta = 1.6000004
+Speed = 2.4643753
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+70
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 3.0
+Displacement = 4.520662
+Hacia donde apunta = 1.6000004
+Speed = 2.7582152
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+71
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4428368
+Hacia donde apunta = 1.6000004
+Speed = 2.0833302
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+72
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.476497
+Hacia donde apunta = 1.6000004
+Speed = 2.373842
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+73
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 3.0
+Displacement = 4.5027947
+Hacia donde apunta = 1.6000004
+Speed = 2.6664557
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+74
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.415446
+Hacia donde apunta = 1.6000004
+Speed = 1.9958767
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+75
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4538803
+Hacia donde apunta = 1.6000004
+Speed = 2.2844343
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+76
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.483661
+Hacia donde apunta = 1.6000004
+Speed = 2.5756083
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+77
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 3.0
+Displacement = 4.5073757
+Hacia donde apunta = 1.6000004
+Speed = 2.8686013
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+78
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.429435
+Hacia donde apunta = 1.6000004
+Speed = 2.19629
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+79
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.463136
+Hacia donde apunta = 1.6000004
+Speed = 2.4857721
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+80
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.489784
+Hacia donde apunta = 1.6000004
+Speed = 2.7774873
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+81
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 3.0
+Displacement = 4.5113535
+Hacia donde apunta = 1.6000004
+Speed = 3.0707994
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+82
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4410825
+Hacia donde apunta = 1.6000004
+Speed = 2.3970613
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+83
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4710045
+Hacia donde apunta = 1.6000004
+Speed = 2.687291
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+84
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.495076
+Hacia donde apunta = 1.6000004
+Speed = 2.9794564
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+85
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTH
+Agent position = 14.0 : 3.0
+Displacement = 4.5148396
+Hacia donde apunta = 1.6000004
+Speed = 3.2730398
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+86
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4509287
+Hacia donde apunta = 1.6000004
+Speed = 2.5981078
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+87
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4777746
+Hacia donde apunta = 1.6000004
+Speed = 2.8889527
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+88
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4996967
+Hacia donde apunta = 1.6000004
+Speed = 3.1814985
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+89
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.429435
+Hacia donde apunta = 1.6000004
+Speed = 2.5100458
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+90
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.4593596
+Hacia donde apunta = 1.6000004
+Speed = 2.7993696
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+91
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 3.0
+Displacement = 4.483661
+Hacia donde apunta = 1.6000004
+Speed = 3.0907297
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+92
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.4063897
+Hacia donde apunta = 1.6000004
+Speed = 2.4232275
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+93
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.4397345
+Hacia donde apunta = 1.6000004
+Speed = 2.7107983
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+94
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.466659
+Hacia donde apunta = 1.6000004
+Speed = 3.000804
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+95
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.381646
+Hacia donde apunta = 1.6000004
+Speed = 2.3377914
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+96
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.418792
+Hacia donde apunta = 1.6000004
+Speed = 2.6233413
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+97
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.4486127
+Hacia donde apunta = 1.6000004
+Speed = 2.9117987
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+98
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.47304
+Hacia donde apunta = 1.6000004
+Speed = 3.2023778
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+99
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.3964157
+Hacia donde apunta = 1.6000004
+Speed = 2.5371141
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+100
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.429435
+Hacia donde apunta = 1.6000004
+Speed = 2.8238015
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+101
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.456344
+Hacia donde apunta = 1.6000004
+Speed = 3.112999
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+102
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.372478
+Hacia donde apunta = 1.6000004
+Speed = 2.452246
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+103
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.4090314
+Hacia donde apunta = 1.6000004
+Speed = 2.7369096
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+104
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.438666
+Hacia donde apunta = 1.6000004
+Speed = 3.0245392
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+105
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.34684
+Hacia donde apunta = 1.6000004
+Speed = 2.3688834
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+106
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.3872995
+Hacia donde apunta = 1.6000004
+Speed = 2.6512313
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+107
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.419929
+Hacia donde apunta = 1.6000004
+Speed = 2.9370813
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+108
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.4467473
+Hacia donde apunta = 1.6000004
+Speed = 3.2255025
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+109
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.364128
+Hacia donde apunta = 1.6000004
+Speed = 2.5668883
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+110
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.400049
+Hacia donde apunta = 1.6000004
+Speed = 2.8507175
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+111
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.429435
+Hacia donde apunta = 1.6000004
+Speed = 3.1375573
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+112
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 4.0
+Displacement = 4.3393965
+Hacia donde apunta = 1.6000004
+Speed = 2.4840167
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+113
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3789363
+Hacia donde apunta = 1.6000004
+Speed = 2.7655506
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+114
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.4111295
+Hacia donde apunta = 1.6000004
+Speed = 3.0506067
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+115
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3129754
+Hacia donde apunta = 1.6000004
+Speed = 2.4027689
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+116
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3564925
+Hacia donde apunta = 1.6000004
+Speed = 2.6816943
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+117
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3917575
+Hacia donde apunta = 1.6000004
+Speed = 2.964738
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+118
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.4208465
+Hacia donde apunta = 1.6000004
+Speed = 3.2508242
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+119
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.332613
+Hacia donde apunta = 1.6000004
+Speed = 2.5992756
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+120
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3712378
+Hacia donde apunta = 1.6000004
+Speed = 2.880048
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+121
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.4029627
+Hacia donde apunta = 1.6000004
+Speed = 3.1643512
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+122
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3071847
+Hacia donde apunta = 1.6000004
+Speed = 2.5184357
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+123
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3494844
+Hacia donde apunta = 1.6000004
+Speed = 2.7966437
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+124
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.38408
+Hacia donde apunta = 1.6000004
+Speed = 3.078947
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+125
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.280089
+Hacia donde apunta = 1.6000004
+Speed = 2.4393313
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+126
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3264055
+Hacia donde apunta = 1.6000004
+Speed = 2.714644
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+127
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.364128
+Hacia donde apunta = 1.6000004
+Speed = 2.994703
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+128
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3953624
+Hacia donde apunta = 1.6000004
+Speed = 3.2782924
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+129
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.301903
+Hacia donde apunta = 1.6000004
+Speed = 2.6341796
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+130
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.34303
+Hacia donde apunta = 1.6000004
+Speed = 2.9117198
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+131
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3769526
+Hacia donde apunta = 1.6000004
+Speed = 3.1933248
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+132
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.275873
+Hacia donde apunta = 1.6000004
+Speed = 2.5553958
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+133
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.3207045
+Hacia donde apunta = 1.6000004
+Speed = 2.8301084
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+134
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 5.0
+Displacement = 4.357543
+Hacia donde apunta = 1.6000004
+Speed = 3.1094983
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+135
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.248207
+Hacia donde apunta = 1.6000004
+Speed = 2.4784527
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+136
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.2970657
+Hacia donde apunta = 1.6000004
+Speed = 2.749991
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+137
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.337066
+Hacia donde apunta = 1.6000004
+Speed = 3.026908
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+138
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.218793
+Hacia donde apunta = 1.6000004
+Speed = 2.4035273
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+139
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.2720237
+Hacia donde apunta = 1.6000004
+Speed = 2.6715016
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+140
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.3154507
+Hacia donde apunta = 1.6000004
+Speed = 2.9456575
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+141
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.351427
+Hacia donde apunta = 1.6000004
+Speed = 3.2244189
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+142
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.245483
+Hacia donde apunta = 1.6000004
+Speed = 2.5947886
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+143
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.2926197
+Hacia donde apunta = 1.6000004
+Speed = 2.8658612
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+144
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.33154
+Hacia donde apunta = 1.6000004
+Speed = 3.1421957
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+145
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.2173467
+Hacia donde apunta = 1.6000004
+Speed = 2.5200136
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+146
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.2684946
+Hacia donde apunta = 1.6000004
+Speed = 2.787644
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+147
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.310593
+Hacia donde apunta = 1.6000004
+Speed = 3.061282
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+148
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.187515
+Hacia donde apunta = 1.6000004
+Speed = 2.4473546
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+149
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.2429924
+Hacia donde apunta = 1.6000004
+Speed = 2.7111418
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+150
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.2885194
+Hacia donde apunta = 1.6000004
+Speed = 2.9817839
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+151
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.3264055
+Hacia donde apunta = 1.6000004
+Speed = 3.257573
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+152
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.216028
+Hacia donde apunta = 1.6000004
+Speed = 2.6365047
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+153
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.2652483
+Hacia donde apunta = 1.6000004
+Speed = 2.903818
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+154
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.30609
+Hacia donde apunta = 1.6000004
+Speed = 3.1769733
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+155
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 6.0
+Displacement = 4.187515
+Hacia donde apunta = 1.6000004
+Speed = 2.5638955
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+156
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 7.0
+Displacement = 4.240707
+Hacia donde apunta = 1.6000004
+Speed = 2.8275106
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+157
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 7.0
+Displacement = 4.2847257
+Hacia donde apunta = 1.6000004
+Speed = 3.097753
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+158
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 7.0
+Displacement = 4.1573653
+Hacia donde apunta = 1.6000004
+Speed = 2.493491
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+159
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 7.0
+Displacement = 4.2148213
+Hacia donde apunta = 1.6000004
+Speed = 2.753
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+160
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 7.0
+Displacement = 4.2622514
+Hacia donde apunta = 1.6000004
+Speed = 3.0200202
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+161
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 7.0
+Displacement = 4.125495
+Hacia donde apunta = 1.6000004
+Speed = 2.4254832
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+162
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 7.0
+Displacement = 4.187515
+Hacia donde apunta = 1.6000004
+Speed = 2.6804361
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+163
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 7.0
+Displacement = 4.238602
+Hacia donde apunta = 1.6000004
+Speed = 2.943893
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+164
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 14.0 : 7.0
+Displacement = 4.281206
+Hacia donde apunta = 1.6000004
+Speed = 3.2137632
+Posicion del portal = [14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 13.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+165
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.1587114
+Hacia donde apunta = 1.6000004
+Speed = 2.609981
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+166
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.213712
+Hacia donde apunta = 1.6000004
+Speed = 2.8694992
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+167
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.259477
+Hacia donde apunta = 1.6000004
+Speed = 3.1362476
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+168
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.128337
+Hacia donde apunta = 1.6000004
+Speed = 2.54181
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+169
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.187515
+Hacia donde apunta = 1.6000004
+Speed = 2.7969768
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+170
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.2366576
+Hacia donde apunta = 1.6000004
+Speed = 3.0602875
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+171
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.096319
+Hacia donde apunta = 1.6000004
+Speed = 2.4761124
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+172
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.159942
+Hacia donde apunta = 1.6000004
+Speed = 2.7264755
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+173
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.21269
+Hacia donde apunta = 1.6000004
+Speed = 2.9860013
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+174
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.256901
+Hacia donde apunta = 1.6000004
+Speed = 3.2524974
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+175
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.13093
+Hacia donde apunta = 1.6000004
+Speed = 2.6581557
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+176
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.187515
+Hacia donde apunta = 1.6000004
+Speed = 2.9135175
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+177
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 7.0
+Displacement = 4.2348557
+Hacia donde apunta = 1.6000004
+Speed = 3.1766927
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+178
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.100414
+Hacia donde apunta = 1.6000004
+Speed = 2.5921905
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+179
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.1610723
+Hacia donde apunta = 1.6000004
+Speed = 2.8429737
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+180
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.2117443
+Hacia donde apunta = 1.6000004
+Speed = 3.1025066
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+181
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.0683355
+Hacia donde apunta = 1.6000004
+Speed = 2.5287635
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+182
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.133305
+Hacia donde apunta = 1.6000004
+Speed = 2.7745178
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+183
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.187515
+Hacia donde apunta = 1.6000004
+Speed = 3.0300581
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+184
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.0346437
+Hacia donde apunta = 1.6000004
+Speed = 2.468071
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+185
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.104157
+Hacia donde apunta = 1.6000004
+Speed = 2.7083082
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+186
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.1621137
+Hacia donde apunta = 1.6000004
+Speed = 2.9594753
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
+187
+highSpeed = true
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.2108674
+Hacia donde apunta = 1.6000004
+Speed = 3.2190142
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_UP
+
+188
+highSpeed = false
+portalWest = false
+portalEast = false
+portalDown = true
+orientation = CENTER
+displacement = SOUTHWEST
+Agent position = 13.0 : 8.0
+Displacement = 4.0735755
+Hacia donde apunta = 1.6000004
+Speed = 2.6445138
+Posicion del portal = [13.0 : 9.0, 14.0 : 9.0, 15.0 : 9.0, 16.0 : 9.0, 12.0 : 9.0]
+Dimensiones del mundo = [ 28 , 11 ]
+
+ACTION_DOWN
+
