@@ -285,7 +285,6 @@ public class AgentState extends State {
 			return State.EAST;	
 	}
 	
-	
 	/**
 	 * Return the nearest portal.
 	 * 
@@ -403,18 +402,30 @@ public class AgentState extends State {
 		return portalPos;
 	}
 		
+	/**
+	 * @return if the portal is west.
+	 */
 	public boolean isPortalWest() {
 		return portalWest;
 	}
 
+	/**
+	 * @return if the portal is east.
+	 */
 	public boolean isPortalEast() {
 		return portalEast;
 	}
 
+	/**
+	 * @return the speed of the avatar.
+	 */
 	public float getSpeed() {
 		return speed;
 	}
 	
+	/**
+	 * @return the position of the avatar.
+	 */
 	public Vector2d getAgentPos() {
 		return agentPos;
 	}
